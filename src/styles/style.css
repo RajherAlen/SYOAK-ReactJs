@@ -9,7 +9,7 @@ body {
   background-color: #e5e5e5;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__title, .price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--bold, .price__statistics .statistics__bottom .bottom__card .card__text .text--bold, .sales .sales__title, .sales .card .card__right .text--bold, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold {
+.price__statistics .statistics__top .statistics__left .graph__title, .price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--bold, .price__statistics .statistics__bottom .bottom__card .card__text .text--bold, .sales .sales__title, .sales .card .card__right .text--bold, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold {
   font-style: normal;
   font-weight: 900;
 }
@@ -19,12 +19,12 @@ body {
   font-weight: 600;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light {
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light {
   font-style: normal;
   font-weight: 500;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__title, .sales .sales__title, .messages .messages__title, .provider .provider__title {
+.price__statistics .statistics__top .statistics__left .graph__title, .sales .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -240,7 +240,7 @@ body {
   margin-left: 7px;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__title, .price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--bold, .price__statistics .statistics__bottom .bottom__card .card__text .text--bold, .sales .sales__title, .sales .card .card__right .text--bold, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold {
+.price__statistics .statistics__top .statistics__left .graph__title, .price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--bold, .price__statistics .statistics__bottom .bottom__card .card__text .text--bold, .sales .sales__title, .sales .card .card__right .text--bold, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold {
   font-style: normal;
   font-weight: 900;
 }
@@ -250,12 +250,12 @@ body {
   font-weight: 600;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light {
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light {
   font-style: normal;
   font-weight: 500;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__title, .sales .sales__title, .messages .messages__title, .provider .provider__title {
+.price__statistics .statistics__top .statistics__left .graph__title, .sales .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -348,7 +348,7 @@ body {
   border-radius: 5px;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__title, .price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--bold, .price__statistics .statistics__bottom .bottom__card .card__text .text--bold, .sales .sales__title, .sales .card .card__right .text--bold, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold {
+.price__statistics .statistics__top .statistics__left .graph__title, .price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--bold, .price__statistics .statistics__bottom .bottom__card .card__text .text--bold, .sales .sales__title, .sales .card .card__right .text--bold, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold {
   font-style: normal;
   font-weight: 900;
 }
@@ -358,12 +358,12 @@ body {
   font-weight: 600;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light {
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light {
   font-style: normal;
   font-weight: 500;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__title, .sales .sales__title, .messages .messages__title, .provider .provider__title {
+.price__statistics .statistics__top .statistics__left .graph__title, .sales .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -441,7 +441,7 @@ body {
   border-radius: 5px;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__title, .price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--bold, .price__statistics .statistics__bottom .bottom__card .card__text .text--bold, .sales .sales__title, .sales .card .card__right .text--bold, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold {
+.price__statistics .statistics__top .statistics__left .graph__title, .price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--bold, .price__statistics .statistics__bottom .bottom__card .card__text .text--bold, .sales .sales__title, .sales .card .card__right .text--bold, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold {
   font-style: normal;
   font-weight: 900;
 }
@@ -451,12 +451,12 @@ body {
   font-weight: 600;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light {
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light {
   font-style: normal;
   font-weight: 500;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__title, .sales .sales__title, .messages .messages__title, .provider .provider__title {
+.price__statistics .statistics__top .statistics__left .graph__title, .sales .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -545,5 +545,103 @@ body {
 
 .provider .provider__card .card__text .text img {
   margin-right: 7px;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__title, .price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--bold, .price__statistics .statistics__bottom .bottom__card .card__text .text--bold, .sales .sales__title, .sales .card .card__right .text--bold, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold {
+  font-style: normal;
+  font-weight: 900;
+}
+
+.sales .card .card__right .text--light {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light {
+  font-style: normal;
+  font-weight: 500;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__title, .sales .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.32px;
+}
+
+.activity {
+  width: 421px;
+  height: 465px;
+  background: #ffffff;
+  border-radius: 5px;
+  padding: 37px 28px 27px 36px;
+}
+
+.activity .activity__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 47px;
+}
+
+.activity .activity__top .activity__title {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 24px;
+  margin-right: 40px;
+}
+
+.activity .activity__top .acttivity__text {
+  font-family: "Inter";
+  font-size: 16px;
+  line-height: 19px;
+  color: #9da8b6;
+}
+
+.activity .activity__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 38px;
+}
+
+.activity .activity__card .avatar {
+  width: 35px;
+  height: 35px;
+  background-color: rgba(37, 215, 130, 0.5);
+}
+
+.activity .activity__card .text__wrap {
+  margin-right: 30px;
+}
+
+.activity .activity__card .text {
+  font-family: "Inter";
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.activity .activity__card .text--bold-dark {
+  color: #35384d;
+}
+
+.activity .activity__card .text--bold-grey {
+  color: #9da8b6;
+}
+
+.activity .activity__card .text--light-grey {
+  color: #9da8b6;
 }
 /*# sourceMappingURL=style.css.map */

@@ -8,7 +8,14 @@ const PriceCard = ({ title, down, percentage, price, color, backColor }) => {
 
   return (
     <div className="bottom__card">
-      <Avatar style={{ color: color, background: backColor }}>
+      <Avatar
+        style={{
+          color: color,
+          background: backColor,
+          width: "35px",
+          height: "35px",
+        }}
+      >
         {avatarTitle}
       </Avatar>
       <div className="card__text">
