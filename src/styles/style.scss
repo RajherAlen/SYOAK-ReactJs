@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+@import "../components/priceStatistics/_priceStatistics";
+@import "../components/salesReport/SalesReport";
+@import "../components//messages/messages";

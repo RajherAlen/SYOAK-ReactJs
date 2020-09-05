@@ -1,0 +1,66 @@
+@import "../../styles/styles";
+
+.sales {
+  padding-right: 4px;
+  width: 349px;
+  .sales__title {
+    @include cardTitle();
+    margin-bottom: 37px;
+    padding-left: 23px;
+  }
+
+  .sales__report {
+    .sales__top {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 99px 11px 29px;
+      .text {
+        @include text13();
+        color: $textLightGrey;
+      }
+    }
+  }
+
+  //CARD
+  .card {
+    display: flex;
+    align-items: center;
+    padding: 0 59px 0 29px;
+    width: 349px;
+    height: 52px;
+    .card__right {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      padding-left: 45px;
+      .text {
+        @include text13();
+        text-transform: uppercase;
+        // BOLD
+        &--bold {
+          @include salesName();
+        }
+
+        // LIGHT
+        &--light {
+          // light-dark
+          @extend %normalBold600;
+          &-dark {
+            color: $textDark;
+          }
+
+          // light-green
+          &-green {
+            color: $textGreen;
+          }
+        }
+      }
+    }
+  }
+}
+
+.active {
+  background-color: #fff;
+  box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+}

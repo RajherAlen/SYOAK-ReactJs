@@ -1,0 +1,443 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__title, .price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--bold, .price__statistics .statistics__bottom .bottom__card .card__text .text--bold, .sales .sales__title, .sales .card .card__right .text--bold, .messages .messages__title, .messages .messages__card .card__text .text--bold {
+  font-style: normal;
+  font-weight: 900;
+}
+
+.sales .card .card__right .text--light {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light {
+  font-style: normal;
+  font-weight: 500;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__title, .sales .sales__title, .messages .messages__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.32px;
+}
+
+.price__statistics {
+  background: #fff;
+  width: 962px;
+  height: 430px;
+  border-radius: 10px;
+}
+
+.price__statistics .statistics__top {
+  padding: 0 38px 0 42px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.price__statistics .statistics__top .statistics__left {
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  padding-right: 80px;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__title {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 24px;
+  padding-top: 36px;
+  margin-bottom: 55px;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__statistics {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 16px;
+  margin-bottom: 59px;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text {
+  font-family: "Inter";
+  font-size: 12px;
+  line-height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.0747253px;
+  display: flex;
+  align-items: center;
+  margin-top: 19px;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--bold {
+  color: #35384d;
+  text-transform: uppercase;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey {
+  color: #9da8b6;
+}
+
+.price__statistics .statistics__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-left: 36px;
+}
+
+.price__statistics .statistics__right .text {
+  width: 242px;
+  margin-top: 9px;
+  margin-bottom: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: -0.0747253px;
+  color: #00367a;
+}
+
+.price__statistics .statistics__right .btn {
+  font-family: "Inter";
+  font-size: 12px;
+  line-height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.0747253px;
+  width: 241px;
+  height: 36px;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border: none;
+  color: #ffffff;
+  background: #054797;
+}
+
+.price__statistics .statistics__bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 45px;
+}
+
+.price__statistics .statistics__bottom .bottom__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.price__statistics .statistics__bottom .bottom__card .card__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-left: 20px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.price__statistics .statistics__bottom .bottom__card .card__text .text__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.price__statistics .statistics__bottom .bottom__card .card__text .text {
+  font-family: "Inter";
+  font-size: 13px;
+  line-height: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 4px;
+}
+
+.price__statistics .statistics__bottom .bottom__card .card__text .text--bold {
+  margin-right: 10px;
+  color: #35384d;
+  text-transform: uppercase;
+}
+
+.price__statistics .statistics__bottom .bottom__card .card__text .text--light-grey {
+  color: #9da8b6;
+}
+
+.price__statistics .statistics__bottom .bottom__card .card__text .text--light-red {
+  color: #dd4545;
+  margin-left: 7px;
+}
+
+.price__statistics .statistics__bottom .bottom__card .card__text .text--light-green {
+  color: #5bb09c;
+  margin-left: 7px;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__title, .price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--bold, .price__statistics .statistics__bottom .bottom__card .card__text .text--bold, .sales .sales__title, .sales .card .card__right .text--bold, .messages .messages__title, .messages .messages__card .card__text .text--bold {
+  font-style: normal;
+  font-weight: 900;
+}
+
+.sales .card .card__right .text--light {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light {
+  font-style: normal;
+  font-weight: 500;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__title, .sales .sales__title, .messages .messages__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.32px;
+}
+
+.sales {
+  padding-right: 4px;
+  width: 349px;
+}
+
+.sales .sales__title {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 37px;
+  padding-left: 23px;
+}
+
+.sales .sales__report .sales__top {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 99px 11px 29px;
+}
+
+.sales .sales__report .sales__top .text {
+  font-family: "Inter";
+  font-size: 13px;
+  line-height: 16px;
+  color: #9da8b6;
+}
+
+.sales .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 59px 0 29px;
+  width: 349px;
+  height: 52px;
+}
+
+.sales .card .card__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding-left: 45px;
+}
+
+.sales .card .card__right .text {
+  font-family: "Inter";
+  font-size: 13px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.sales .card .card__right .text--bold {
+  font-family: "Inter";
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: #35384d;
+}
+
+.sales .card .card__right .text--light-dark {
+  color: #35384d;
+}
+
+.sales .card .card__right .text--light-green {
+  color: #5bb09c;
+}
+
+.active {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__title, .price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--bold, .price__statistics .statistics__bottom .bottom__card .card__text .text--bold, .sales .sales__title, .sales .card .card__right .text--bold, .messages .messages__title, .messages .messages__card .card__text .text--bold {
+  font-style: normal;
+  font-weight: 900;
+}
+
+.sales .card .card__right .text--light {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light {
+  font-style: normal;
+  font-weight: 500;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__title, .sales .sales__title, .messages .messages__title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.32px;
+}
+
+.messages .messages__title {
+  font-family: "Inter";
+  font-size: 20px;
+  line-height: 24px;
+  margin-bottom: 29px;
+  padding-left: 24px;
+}
+
+.messages .messages__card {
+  width: 349px;
+  height: 60px;
+  padding: 0 55px 0 23px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.messages .messages__card .card__avatar {
+  position: relative;
+  margin-right: 15px;
+}
+
+.messages .messages__card .card__avatar .avatar__circle {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.messages .messages__card .card__text {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.messages .messages__card .card__text .text {
+  font-family: "Inter";
+  font-size: 13px;
+  line-height: 16px;
+}
+
+.messages .messages__card .card__text .text--bold-dark {
+  color: #35384d;
+}
+
+.messages .messages__card .card__text .text--bold-grey {
+  color: #9da8b6;
+  font-size: 11.8px;
+  line-height: 14px;
+}
+
+.messages .messages__card .card__text .text--light-grey {
+  color: #9da8b6;
+}
+
+.active {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */

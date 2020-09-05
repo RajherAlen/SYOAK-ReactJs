@@ -1,0 +1,103 @@
+$textDark: #35384d;
+$textDarkGrey: #626263;
+$textLightGrey: #9da8b6;
+$white: #ffffff;
+$backOrange: #ff7616;
+$textRed: #dd4545;
+$textGreen: #5bb09c;
+$btnPrimary: #0052b4;
+$btnDarkBlue: #054797;
+$primaryFont: "Inter";
+$secondaryFont: "Quicksand", sans-serif;
+
+%normalBold900 {
+  font-style: normal;
+  font-weight: 900;
+}
+
+%normalBold600 {
+  font-style: normal;
+  font-weight: 600;
+}
+
+%normalBold500 {
+  font-style: normal;
+  font-weight: 500;
+}
+
+%center32 {
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.32px;
+}
+
+@mixin cardTitle {
+  @extend %normalBold900;
+  @extend %center32;
+  font-family: $primaryFont;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+@mixin fuelPrice {
+  @extend %normalBold900;
+  @extend %center32;
+  font-family: $primaryFont;
+  font-size: 25px;
+  line-height: 30px;
+}
+
+@mixin fuelPriceBig {
+  @extend %normalBold900;
+  font-family: $primaryFont;
+  font-size: 35px;
+  line-height: 42px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.4px;
+  color: $white;
+}
+
+@mixin extraSmallText {
+  @extend %normalBold500;
+  @extend %center32;
+  font-family: $primaryFont;
+  color: $textLightGrey;
+  font-size: 8px;
+  line-height: 10px;
+} 
+
+@mixin smallDates {
+  @extend %normalBold500;
+  @extend %center32;
+  font-family: $secondaryFont;
+  color: $textWhit;
+  font-size: 8px;
+  line-height: 9px;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+}
+
+@mixin salesName {
+  @extend %normalBold900;
+  font-family: $primaryFont;
+  font-size: 12.8px;
+  line-height: 15px;
+  text-align: center;
+  color: $textDark;
+}
+
+@mixin text13 {
+  font-family: $primaryFont;
+  font-size: 13px;
+  line-height: 16px;
+}
+
+@mixin text12 {
+  font-family: $primaryFont;
+  font-size: 12px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.0747253px;
+}
