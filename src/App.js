@@ -3,6 +3,7 @@ import "./styles/style.css";
 import PriceStatistics from "./components/priceStatistics/PriceStatistics";
 import SalesReport from "./components/salesReport/SalesReport";
 import Messages from "./components/messages/Messages";
+import OilGasProvider from "./components/oilGas/OilGasProvider";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       {/* <PriceStatistics />
       <SalesReport />
       <Messages /> */}
+      <OilGasProvider />
     </div>
   );
 }

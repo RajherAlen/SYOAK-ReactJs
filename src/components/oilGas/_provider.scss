@@ -1,0 +1,61 @@
+@import "../../styles/styles";
+
+.provider {
+  width: 511px;
+  height: 465px;
+  background: #ffffff;
+  border-radius: 10px;
+  padding: 36px 48px 32px 43px;
+  .provider__title {
+    @include cardTitle();
+    margin-bottom: 39px;
+  }
+
+  .provider__card {
+    display: flex;
+    margin-bottom: 35px;
+
+    .avatar {
+      width: 25px;
+      height: 25px;
+      @include text13();
+      @extend %normalBold900;
+    }
+    .card__text {
+      width: 100%;
+      margin-left: 15px;
+      display: flex;
+      align-items: center;
+      .card__right {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        padding-left: 64px;
+      }
+
+      .text {
+        @include text12();
+        // BOLD
+        &--bold {
+          width: 74px;
+          @extend %normalBold900;
+          &-dark {
+            color: $textDark;
+          }
+        }
+
+        // LIGHT
+        &--light {
+          @extend %normalBold500;
+          &-grey {
+            color: $textLightGrey;
+          }
+        }
+
+        img {
+          margin-right: 7px;
+        }
+      }
+    }
+  }
+}

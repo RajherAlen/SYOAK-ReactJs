@@ -65,7 +65,7 @@ $secondaryFont: "Quicksand", sans-serif;
   color: $textLightGrey;
   font-size: 8px;
   line-height: 10px;
-} 
+}
 
 @mixin smallDates {
   @extend %normalBold500;
