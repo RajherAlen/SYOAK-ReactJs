@@ -1,0 +1,92 @@
+@import "../../styles/styles";
+
+.fuel {
+  width: 962px;
+  height: 154px;
+  display: flex;
+  justify-content: space-between;
+  .text__title {
+    @include cardTitle();
+  }
+  // MAIN FUEL CARD
+  .fuel__mainCard {
+    position: relative;
+    width: 308px;
+    height: 226px;
+    background-color: $btnPrimary;
+    border-radius: 10px;
+    color: $white;
+    .manCard__text {
+      padding: 14px 169px 0 26px;
+
+      .text__price {
+        @include fuelPriceBig();
+        margin-bottom: 8px;
+      }
+      .text__small {
+        font-family: $primaryFont;
+        @extend %normalBold500;
+        font-size: 10px;
+        line-height: 12px;
+        letter-spacing: 0.4px;
+        margin-bottom: 9px;
+      }
+      .graph {
+        margin-bottom: 4px;
+      }
+    }
+    // DATES
+    .fuel__dates {
+      display: flex;
+      justify-content: center;
+      padding-top: 10px;
+      .text__dates {
+        @include smallDates();
+        margin-right: 20px;
+      }
+    }
+    // BACK CARD
+    .back__card {
+      position: absolute;
+      width: 280px;
+      height: 206px;
+      top: 30px;
+      left: 14px;
+      background: #0052b4;
+      border-radius: 10px;
+      opacity: 0.5;
+      z-index: -1;
+    }
+  }
+
+  // FUEL CARD
+  .fuel__card {
+    background: $white;
+    border-radius: 10px;
+    width: 200px;
+    height: 182px;
+    padding: 21px 22px 15px 20px;
+    .fuel__price {
+      margin-top: 29px;
+      margin-bottom: 5px;
+      @include fuelPrice();
+    }
+    .fuel__smalltext {
+      @include extraSmallText();
+      margin-bottom: 29px;
+    }
+    .fuel__percentage {
+      font-family: $primaryFont;
+      @extend %normalBold500;
+      font-size: 16px;
+      line-height: 19px;
+      letter-spacing: 0.269474px;
+    }
+    .text-green {
+      color: $textGreen;
+    }
+    .text-red {
+      color: $textRed;
+    }
+  }
+}

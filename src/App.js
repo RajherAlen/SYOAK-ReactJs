@@ -5,6 +5,7 @@ import SalesReport from "./components/salesReport/SalesReport";
 import Messages from "./components/messages/Messages";
 import OilGasProvider from "./components/oilGas/OilGasProvider";
 import Activity from "./components/activity/Activity";
+import Fuel from "./components/fuel/Fuel";
 
 function App() {
   return (
@@ -12,8 +13,9 @@ function App() {
       {/* <PriceStatistics />
       <SalesReport />
       <Messages />
-      <OilGasProvider /> */}
-      <Activity />
+      <OilGasProvider /> 
+      <Activity />*/}
+      <Fuel />
     </div>
   );
 }
