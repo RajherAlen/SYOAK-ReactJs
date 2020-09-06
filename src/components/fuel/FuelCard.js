@@ -8,7 +8,11 @@ const FuelCard = ({ percentage, name, price, down }) => {
       <p className="text__title"> {name} </p>
       <p className="fuel__price">${price}</p>
       <p className="fuel__smalltext">AVG PRICE</p>
-      <p className={`fuel__percentage ${down ? "text-green" : "text-red"} `}>
+      <p
+        className={`fuel--percentage ${
+          down ? "fuel--percentage-green" : "fuel--percentage-red"
+        } `}
+      >
         <img src={down ? arrowDown : arrowUp} /> {down ? "-" : "+"}
         {percentage}%
       </p>

@@ -19,7 +19,7 @@ body {
   font-weight: 600;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel .fuel__mainCard .manCard__text .text__small, .fuel .fuel__mainCard .fuel__dates .text__dates, .fuel .fuel__card .fuel__smalltext, .fuel .fuel__card .fuel__percentage {
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel .fuel__mainCard .manCard__text .text__small, .fuel .fuel__mainCard .fuel__dates .text__dates, .fuel .fuel__card .fuel__smalltext, .fuel .fuel__card .fuel--percentage {
   font-style: normal;
   font-weight: 500;
 }
@@ -250,7 +250,7 @@ body {
   font-weight: 600;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel .fuel__mainCard .manCard__text .text__small, .fuel .fuel__mainCard .fuel__dates .text__dates, .fuel .fuel__card .fuel__smalltext, .fuel .fuel__card .fuel__percentage {
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel .fuel__mainCard .manCard__text .text__small, .fuel .fuel__mainCard .fuel__dates .text__dates, .fuel .fuel__card .fuel__smalltext, .fuel .fuel__card .fuel--percentage {
   font-style: normal;
   font-weight: 500;
 }
@@ -358,7 +358,7 @@ body {
   font-weight: 600;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel .fuel__mainCard .manCard__text .text__small, .fuel .fuel__mainCard .fuel__dates .text__dates, .fuel .fuel__card .fuel__smalltext, .fuel .fuel__card .fuel__percentage {
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel .fuel__mainCard .manCard__text .text__small, .fuel .fuel__mainCard .fuel__dates .text__dates, .fuel .fuel__card .fuel__smalltext, .fuel .fuel__card .fuel--percentage {
   font-style: normal;
   font-weight: 500;
 }
@@ -451,7 +451,7 @@ body {
   font-weight: 600;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel .fuel__mainCard .manCard__text .text__small, .fuel .fuel__mainCard .fuel__dates .text__dates, .fuel .fuel__card .fuel__smalltext, .fuel .fuel__card .fuel__percentage {
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel .fuel__mainCard .manCard__text .text__small, .fuel .fuel__mainCard .fuel__dates .text__dates, .fuel .fuel__card .fuel__smalltext, .fuel .fuel__card .fuel--percentage {
   font-style: normal;
   font-weight: 500;
 }
@@ -557,7 +557,7 @@ body {
   font-weight: 600;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel .fuel__mainCard .manCard__text .text__small, .fuel .fuel__mainCard .fuel__dates .text__dates, .fuel .fuel__card .fuel__smalltext, .fuel .fuel__card .fuel__percentage {
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel .fuel__mainCard .manCard__text .text__small, .fuel .fuel__mainCard .fuel__dates .text__dates, .fuel .fuel__card .fuel__smalltext, .fuel .fuel__card .fuel--percentage {
   font-style: normal;
   font-weight: 500;
 }
@@ -655,7 +655,7 @@ body {
   font-weight: 600;
 }
 
-.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel .fuel__mainCard .manCard__text .text__small, .fuel .fuel__mainCard .fuel__dates .text__dates, .fuel .fuel__card .fuel__smalltext, .fuel .fuel__card .fuel__percentage {
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel .fuel__mainCard .manCard__text .text__small, .fuel .fuel__mainCard .fuel__dates .text__dates, .fuel .fuel__card .fuel__smalltext, .fuel .fuel__card .fuel--percentage {
   font-style: normal;
   font-weight: 500;
 }
@@ -728,13 +728,14 @@ body {
 }
 
 .fuel .fuel__mainCard .fuel__dates {
+  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  padding-top: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 29px 0 29px;
 }
 
 .fuel .fuel__mainCard .fuel__dates .text__dates {
@@ -744,7 +745,6 @@ body {
   line-height: 9px;
   mix-blend-mode: normal;
   opacity: 0.5;
-  margin-right: 20px;
 }
 
 .fuel .fuel__mainCard .back__card {
@@ -783,18 +783,118 @@ body {
   margin-bottom: 29px;
 }
 
-.fuel .fuel__card .fuel__percentage {
+.fuel .fuel__card .fuel--percentage {
   font-family: "Inter";
   font-size: 16px;
   line-height: 19px;
   letter-spacing: 0.269474px;
 }
 
-.fuel .fuel__card .text-green {
+.fuel .fuel__card .fuel--percentage-green {
   color: #5bb09c;
 }
 
-.fuel .fuel__card .text-red {
+.fuel .fuel__card .fuel--percentage-red {
   color: #dd4545;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__title, .price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--bold, .price__statistics .statistics__bottom .bottom__card .card__text .text--bold, .sales .sales__title, .sales .card .card__right .text--bold, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold, .fuel .text__title, .fuel .fuel__mainCard .manCard__text .text__price, .fuel .fuel__card .fuel__price {
+  font-style: normal;
+  font-weight: 900;
+}
+
+.sales .card .card__right .text--light {
+  font-style: normal;
+  font-weight: 600;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__statistics .graph__line .text--light-grey, .price__statistics .statistics__bottom .bottom__card .card__text .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel .fuel__mainCard .manCard__text .text__small, .fuel .fuel__mainCard .fuel__dates .text__dates, .fuel .fuel__card .fuel__smalltext, .fuel .fuel__card .fuel--percentage {
+  font-style: normal;
+  font-weight: 500;
+}
+
+.price__statistics .statistics__top .statistics__left .graph__title, .sales .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title, .fuel .text__title, .fuel .fuel__mainCard .fuel__dates .text__dates, .fuel .fuel__card .fuel__price, .fuel .fuel__card .fuel__smalltext {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: 0.32px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 67px;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+header .header__logo {
+  width: 69px;
+  height: 63px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #ffffff;
+}
+
+header .header__info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 32px;
+}
+
+header .header__info .header__left {
+  position: relative;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+          box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+  border-radius: 6px;
+  width: 300px;
+  height: 38px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 13px;
+}
+
+header .header__info .header__left .header__input {
+  outline-width: 0;
+  border: none;
+  padding-left: 12px;
+}
+
+header .header__info .header__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 110px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .header__info .header__right .header__avatar {
+  width: 35px;
+  height: 35px;
 }
 /*# sourceMappingURL=style.css.map */

@@ -37,12 +37,12 @@
     }
     // DATES
     .fuel__dates {
+      width: 100%;
       display: flex;
-      justify-content: center;
-      padding-top: 10px;
+      justify-content: space-between;
+      padding: 10px 29px 0 29px;
       .text__dates {
         @include smallDates();
-        margin-right: 20px;
       }
     }
     // BACK CARD
@@ -75,18 +75,18 @@
       @include extraSmallText();
       margin-bottom: 29px;
     }
-    .fuel__percentage {
+    .fuel--percentage {
       font-family: $primaryFont;
       @extend %normalBold500;
       font-size: 16px;
       line-height: 19px;
       letter-spacing: 0.269474px;
-    }
-    .text-green {
-      color: $textGreen;
-    }
-    .text-red {
-      color: $textRed;
+      &-green {
+        color: $textGreen;
+      }
+      &-red {
+        color: $textRed;
+      }
     }
   }
 }
