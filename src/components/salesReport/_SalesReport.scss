@@ -3,6 +3,10 @@
 .sales {
   padding-right: 4px;
   width: 349px;
+  height: 679px;
+  margin-bottom: 67px;
+  margin-top: 20px;
+
   .sales__title {
     @include cardTitle();
     margin-bottom: 37px;
@@ -28,6 +32,12 @@
     padding: 0 59px 0 29px;
     width: 349px;
     height: 52px;
+    margin-bottom: 13px;
+    // BOLD NUMBER
+    .text--bold-number {
+      @extend %normalBold600;
+    }
+
     .card__right {
       display: flex;
       width: 100%;

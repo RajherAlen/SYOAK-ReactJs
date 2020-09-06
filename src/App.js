@@ -7,18 +7,43 @@ import OilGasProvider from "./components/oilGas/OilGasProvider";
 import Activity from "./components/activity/Activity";
 import Fuel from "./components/fuel/Fuel";
 import Header from "./components/header/Header";
+import SideBar from "./components/sideBar/SideBar";
+import hrLine from "./hrLine.svg";
 
 function App() {
   return (
-    <div>
-      {/* <PriceStatistics />
+    <div className="app">
+      {/* 
+      <PriceStatistics />
       <SalesReport />
-      <Messages />
-      <OilGasProvider /> 
+     
+      <OilGasProvider />
       <Activity />
-      <Fuel />*/}
+       */}
+      <img src={hrLine} className="hrLine" />
 
-      <Header />
+      <div className="header__sidebar">
+        <SideBar />
+        <div className="app__top">
+          <Header />
+
+          <div className="app__middle">
+            <div className="app__left">
+              <Fuel />
+              <PriceStatistics />
+
+              <div className="app__bottom">
+                <OilGasProvider />
+                <Activity />
+              </div>
+            </div>
+            <div>
+              <SalesReport />
+              <Messages />
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

@@ -10,6 +10,11 @@ $btnDarkBlue: #054797;
 $primaryFont: "Inter";
 $secondaryFont: "Quicksand", sans-serif;
 
+@mixin width1440px {
+  width: 1440px;
+  margin: 0 auto;
+}
+
 %normalBold900 {
   font-style: normal;
   font-weight: 900;

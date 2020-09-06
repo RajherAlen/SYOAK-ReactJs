@@ -5,6 +5,7 @@
   height: 154px;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 110px;
   .text__title {
     @include cardTitle();
   }
@@ -14,7 +15,8 @@
     width: 308px;
     height: 226px;
     background-color: $btnPrimary;
-    border-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     color: $white;
     .manCard__text {
       padding: 14px 169px 0 26px;
@@ -62,7 +64,8 @@
   // FUEL CARD
   .fuel__card {
     background: $white;
-    border-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
     width: 200px;
     height: 182px;
     padding: 21px 22px 15px 20px;

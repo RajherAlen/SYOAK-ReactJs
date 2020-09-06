@@ -1,0 +1,25 @@
+@import "../../styles/styles";
+
+.sidebar {
+  background-color: $white;
+  width: 69px;
+  height: 1238;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 19px;
+  .sidebar__fuel {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background: $backOrange;
+    box-shadow: 0px 0px 4px rgba(255, 118, 22, 0.25);
+    border-radius: 5px;
+    margin: 40px 0;
+  }
+
+  .sidebar__stats {
+    margin: 40px 0;
+  }
+}
