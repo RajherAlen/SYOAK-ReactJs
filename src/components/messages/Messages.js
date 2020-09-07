@@ -34,8 +34,9 @@ const Messages = () => {
   return (
     <div className="messages ">
       <h1 className="messages__title">Messages</h1>
-      {messages.map((message) => (
+      {messages.map((message, index) => (
         <Message
+          key={index}
           active={message.active}
           name={message.name}
           text={message.text}

@@ -1,0 +1,155 @@
+@import "../styles/styles";
+
+.crud {
+  width: 100%;
+  height: 1390px;
+  padding: 62px 122px 25px 0px;
+
+  .crud__top {
+    display: flex;
+    justify-content: space-between;
+    .crud__top-left {
+      align-items: baseline;
+      display: flex;
+      .crud__title {
+        @include fuelPrice();
+        color: $textDark;
+        margin-right: 9px;
+      }
+      .crud__text-total {
+        @include salesName();
+        @extend %normalBold500;
+        color: $textLightGrey;
+        margin-right: 23px;
+      }
+      .text {
+        @include text12();
+        @extend %normalBold500;
+        &-dark {
+          color: #000;
+          margin-right: 4px;
+        }
+        &-grey {
+          color: $textLightGrey;
+          img {
+            
+            margin-left: 3px;
+          }
+        }
+      }
+    }
+    // CRUD TOP RIGHT
+    .crud__top-right {
+      display: flex;
+
+      .btn {
+        width: 111px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        &--outline {
+          border: 1px solid $btnPrimary;
+          background-color: $white;
+          margin-right: 12px;
+          img {
+            margin-right: 6px;
+          }
+        }
+
+        &--primary {
+          color: $white;
+          background-color: $btnPrimary;
+          border: none;
+          img {
+            margin-right: 2px;
+          }
+        }
+      }
+    }
+  }
+
+  .crud__list {
+    width: 100%;
+    height: 647px;
+    padding-top: 51px;
+    padding-left: 61px;
+    .crud__list--header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      &-left {
+        padding-left: 61px;
+        padding-right: 50px;
+        width: 100%;
+        .header__title {
+          @extend %normalBold900;
+          color: $textDark;
+          font-size: 16px;
+          line-height: 19px;
+          letter-spacing: -0.0809524px;
+        }
+      }
+      &-right {
+        width: 169px;
+        padding-right: 14px;
+        color: #868686;
+      }
+    }
+  }
+
+  .crud__list-content {
+    width: 100%;
+    padding-top: 28px;
+    .crud__card {
+      position: relative;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 15px;
+      background: $white;
+      box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
+      border-radius: 5px;
+      padding-right: 150px;
+      padding-left: 23px;
+
+      .dotsImg {
+        position: absolute;
+        top: 29.5px;
+        right: 26px;
+      }
+      .avatar {
+        margin: 0 12px 0 23px;
+      }
+      .card {
+        display: flex;
+        align-items: center;
+
+        &-left {
+          width: 200px;
+        }
+        &-right {
+          width: 100%;
+          justify-content: space-between;
+          padding: 0 75px 0 76px;
+        }
+      }
+      .text {
+        @include text13();
+        letter-spacing: -0.0747253px;
+        @extend %normalBold500;
+        &--dark {
+          color: $textDark;
+          &-bold {
+            font-weight: 900;
+          }
+        }
+
+        &--light {
+          color: $textLightGrey;
+        }
+      }
+    }
+  }
+}

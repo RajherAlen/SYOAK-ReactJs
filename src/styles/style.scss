@@ -1,3 +1,14 @@
+@import "../components/priceStatistics/_priceStatistics";
+@import "../components/salesReport/SalesReport";
+@import "../components/messages/messages";
+@import "../components/oilGas/provider";
+@import "../components/activity//activitiy";
+@import "../components/fuel/fuel";
+@import "../components/header/header";
+@import "../components/sideBar/sideBar";
+@import "../pages/dashboard";
+@import "../components/CRUDlist/crudList";
+
 * {
   margin: 0;
   padding: 0;
@@ -17,32 +28,4 @@ body {
   top: 67px;
   left: 0;
   width: 100vw;
-}
-
-@import "../components/priceStatistics/_priceStatistics";
-@import "../components/salesReport/SalesReport";
-@import "../components/messages/messages";
-@import "../components/oilGas/provider";
-@import "../components/activity//activitiy";
-@import "../components/fuel/fuel";
-@import "../components/header/header";
-@import "../components/sideBar/sideBar";
-
-.header__sidebar {
-  @include width1440px();
-  display: flex;
-  .app__top {
-    width: 100%;
-    padding-left: 33px;
-    padding-bottom: 41px;
-    .app__middle {
-      display: flex;
-      .app__left {
-        margin-right: 31px;
-        .app__bottom {
-          display: flex;
-        }
-      }
-    }
-  }
 }

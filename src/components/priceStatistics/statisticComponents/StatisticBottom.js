@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Avatar } from "@material-ui/core";
 import PriceCard from "./PriceCard";
+import next from "./img/next.svg";
 
 const StatisticBottom = () => {
   const [statistic, setStatistic] = useState([
@@ -36,11 +37,19 @@ const StatisticBottom = () => {
       color: "#0052B4",
       backColor: "rgba(0, 82, 180, 0.5)",
     },
+    {
+      down: true,
+      title: "Respol",
+      percentage: 2,
+      price: "1.85",
+      color: "#E86F1B",
+      backColor: "rgba(232, 111, 27, 0.5)",
+    },
   ]);
 
   return (
     <div className="statistics__bottom">
-      {statistic.map((card, index) => (
+      {statistic.slice(0, 4).map((card, index) => (
         <PriceCard
           key={index}
           down={card.down}
@@ -62,6 +71,8 @@ const StatisticBottom = () => {
       >
         R
       </Avatar>
+
+      <img src={next} />
     </div>
   );
 };

@@ -3,23 +3,25 @@
 .sidebar {
   background-color: $white;
   width: 69px;
-  height: 1238;
+  min-height: 1238px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 19px;
-  .sidebar__fuel {
+  .sidebar__logo {
+    margin-bottom: 40px;
+  }
+  .sidebar__card {
     width: 40px;
     height: 40px;
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
+    border-radius: 5px;
+  }
+  .sidebar__cardActive {
     background: $backOrange;
     box-shadow: 0px 0px 4px rgba(255, 118, 22, 0.25);
-    border-radius: 5px;
-    margin: 40px 0;
-  }
-
-  .sidebar__stats {
-    margin: 40px 0;
+    color: $white;
   }
 }
