@@ -48,7 +48,7 @@ const CRUDtop = () => {
             placeholder="Fuel Name"
             className="addFuel__input"
           />
-          <div className="addFuel__price addFuel__input">
+          <div className="addFuel__price">
             <p>Price: </p>
 
             <input
@@ -56,14 +56,15 @@ const CRUDtop = () => {
               placeholder="1"
               min="0"
               max="100"
-              className="addFuel__input addFuel__input-number"
+              className="addFuel__number"
             />
+
             <input
               type="number"
               placeholder="00"
               min="0"
               max="100"
-              className="addFuel__input addFuel__input-number"
+              className="addFuel__number"
             />
           </div>
           <div className="addFuell__btn">
