@@ -34,8 +34,10 @@ const CRUDlist = () => {
 
         {/* CRUD LIST CONTENT*/}
         <div className="crud__list-content">
-          {datalist.slice(0, 8).map((data) => (
+          {datalist.slice(0, 8).map((data, index) => (
             <CRUDcard
+              key={index}
+              id={index}
               provider={data.provider}
               type={data.type}
               fuelName={data.fuelName}

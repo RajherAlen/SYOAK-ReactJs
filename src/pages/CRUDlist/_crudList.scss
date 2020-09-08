@@ -1,10 +1,9 @@
-@import "../styles/styles";
+@import "../../styles/styles";
 
 .crud {
   width: 100%;
-  height: 1390px;
+  height: 100vh;
   padding: 62px 122px 25px 0px;
-
   .crud__top {
     display: flex;
     justify-content: space-between;
@@ -32,7 +31,6 @@
         &-grey {
           color: $textLightGrey;
           img {
-            
             margin-left: 3px;
           }
         }
@@ -41,13 +39,15 @@
     // CRUD TOP RIGHT
     .crud__top-right {
       display: flex;
-
+      position: relative;
       .btn {
         width: 111px;
         height: 40px;
         display: flex;
         align-items: center;
         justify-content: center;
+        outline-width: 0;
+        cursor: pointer;
         &--outline {
           border: 1px solid $btnPrimary;
           background-color: $white;
@@ -65,6 +65,91 @@
             margin-right: 2px;
           }
         }
+      }
+
+      .addFuel {
+        position: absolute;
+        z-index: 222;
+        width: 467px;
+        height: 839px;
+        right: -122px;
+        top: -2px;
+        background-color: $white;
+        display: flex;
+        flex-direction: column;
+        padding: 58px 45px 224px 42px;
+        display: none;
+        .text {
+          &--title {
+            @include cardTitle();
+            @extend %normalBold500;
+            margin-bottom: 66px;
+          }
+        }
+        .addFuel__input {
+          font-family: $primaryFont;
+          font-weight: normal;
+          font-size: 15px;
+          line-height: 20px;
+          width: 386px;
+          height: 48px;
+          border: 0;
+          outline-width: 0;
+          color: rgba(48, 48, 49, 0.75);
+          margin-bottom: 45px;
+          box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+          border-radius: 3px;
+          &-number {
+            width: 73px;
+            height: 38px;
+            margin-bottom: 0;
+            margin-right: 18px;
+            text-align: center;
+          }
+        }
+        .addFuel__price {
+          display: flex;
+          align-items: center;
+          margin-bottom: 93px;
+        }
+        .addFuell__btn {
+          display: flex;
+          .btn {
+            width: 121px;
+            height: 36px;
+            @include salesName();
+            @extend %normalBold500;
+            cursor: pointer;
+            transition: 0.2s all ease-in-out;
+            &-primary {
+              border: none;
+              color: $white;
+              background-color: $btnPrimary;
+              margin-right: 22px;
+              &:hover {
+                background-color: $white;
+                color: $btnPrimary;
+                border: 1px solid $btnPrimary;
+              }
+            }
+            &-outline {
+              color: $btnPrimary;
+              border: 1px solid $btnPrimary;
+              &:hover {
+                border: none;
+                color: $white;
+                background-color: $btnPrimary;
+              }
+            }
+            &-red {
+              border: none;
+              color: $textRed;
+            }
+          }
+        }
+      }
+      .active {
+        display: flex;
       }
     }
   }
@@ -149,6 +234,39 @@
         &--light {
           color: $textLightGrey;
         }
+      }
+
+      .crud__edit {
+        display: none;
+        position: absolute;
+        top: 47px;
+        right: 8px;
+        width: 240px;
+        height: 125px;
+        background: $white;
+        box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+        border-radius: 6px;
+        z-index: 11;
+        p {
+          font-family: $secondaryFont;
+          color: $textDarkGrey;
+          font-size: 14px;
+          line-height: 17px;
+          display: flex;
+          height: 41.6px;
+          align-items: center;
+          padding: 15px 0 15px 21px;
+          cursor: pointer;
+          &:hover {
+            background-color: #e5e5e5;
+          }
+        }
+        img {
+          margin-right: 13px;
+        }
+      }
+      .active {
+        display: block;
       }
     }
   }
