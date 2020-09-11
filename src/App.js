@@ -14,7 +14,7 @@ function App() {
 
       <div className="dashboard">
         <SideBar />
-        <div className="dashboard__top">
+        <div className="dashboard__header">
           <Header />
           <Switch>
             <Route path="/search" component={CRUDlist} />

@@ -10,6 +10,7 @@
   &__header {
     padding: 0 38px 0 42px;
     display: flex;
+
     // LEFT
     &__body {
       flex: 2;
@@ -37,14 +38,16 @@
 
           // Bold text 12px
           &--bold {
-            @extend %normalBold900;
+            font-weight: 900;
+            font-style: normal;
             color: $textDark;
             text-transform: uppercase;
           }
 
           //Light text 12px
           &--light {
-            @extend %normalBold500;
+            font-weight: 500;
+            font-style: normal;
             color: $textLightGrey;
           }
         }
@@ -57,6 +60,7 @@
       flex-direction: column;
       justify-content: center;
       padding-left: 36px;
+
       &_summary {
         width: 242px;
         margin-top: 9px;
@@ -81,6 +85,7 @@
         justify-content: center;
         border: none;
         cursor: pointer;
+
         &--primary {
           color: $white;
           background: #054797;
@@ -98,45 +103,52 @@
 
     &__item {
       display: flex;
-      &_description {
+
+      &__description {
         display: flex;
         flex-direction: column;
         margin-left: 20px;
         justify-content: center;
-        .text__top {
-          display: flex;
-        }
-        .text {
-          @include text13();
+
+        &__head {
           display: flex;
           align-items: center;
-          margin-bottom: 4px;
-          // Bold text 13px
-          &--bold {
-            @extend %normalBold900;
-            margin-right: 10px;
-            color: $textDark;
-            text-transform: uppercase;
-          }
 
-          //Light text 13px
-          &--light {
-            @extend %normalBold500;
+          &__info {
+            @include text13();
+            display: flex;
+            align-items: center;
+            margin-bottom: 4px;
 
-            &-grey {
-              color: $textLightGrey;
+            // Bold text 13px
+            &--bold {
+              font-weight: 900;
+              font-style: normal;
+              margin-right: 10px;
+              color: $textDark;
+              text-transform: uppercase;
             }
 
-            //Red text
-            &-red {
-              color: $textRed;
-              margin-left: 7px;
-            }
+            //Light text 13px
+            &--light {
+              font-weight: 500;
+              font-style: normal;
 
-            //Green text
-            &-green {
-              color: $textGreen;
-              margin-left: 7px;
+              &-grey {
+                color: $textLightGrey;
+              }
+
+              //Red text
+              &-minus {
+                color: $textRed;
+                margin-left: 7px;
+              }
+
+              //Green text
+              &-plus {
+                color: $textGreen;
+                margin-left: 7px;
+              }
             }
           }
         }

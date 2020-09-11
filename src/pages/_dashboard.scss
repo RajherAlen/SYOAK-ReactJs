@@ -3,17 +3,21 @@
 .dashboard {
   @include width1440px();
   display: flex;
-  .dashboard__top {
+
+  &__header {
     width: 100%;
     padding-left: 33px;
     padding-bottom: 41px;
-    .dashboard__middle {
-      display: flex;
-      .dashboard__left {
-        margin-right: 31px;
-        .dashboard__bottom {
-          display: flex;
-        }
+  }
+
+  &__content {
+    display: flex;
+
+    &__cards {
+      margin-right: 31px;
+
+      &__row {
+        display: flex;
       }
     }
   }

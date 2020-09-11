@@ -4,26 +4,33 @@
   width: 100%;
   height: 100vh;
   padding: 62px 122px 25px 0px;
-  .crud__top {
+
+  &__header {
     display: flex;
     justify-content: space-between;
-    .crud__top-left {
+
+    &__info {
       align-items: baseline;
       display: flex;
-      .crud__title {
+
+      &--title {
         @include fuelPrice();
         color: $textDark;
         margin-right: 9px;
       }
-      .crud__text-total {
+
+      &--total {
         @include salesName();
-        @extend %normalBold500;
+        font-weight: 500;
+        font-style: normal;
         color: $textLightGrey;
         margin-right: 23px;
       }
-      .text {
+
+      &--sort {
         @include text12();
-        @extend %normalBold500;
+        font-weight: 500;
+        font-style: normal;
         &-dark {
           color: #000;
           margin-right: 4px;
@@ -36,11 +43,13 @@
         }
       }
     }
+
     // CRUD TOP RIGHT
-    .crud__top-right {
+    &__btns {
       display: flex;
       position: relative;
-      .btn {
+
+      &__btn {
         width: 111px;
         height: 40px;
         display: flex;
@@ -48,6 +57,12 @@
         justify-content: center;
         outline-width: 0;
         cursor: pointer;
+        transition: 0.3s all ease-in-out;
+        &:hover {
+          box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
+          opacity: 0.8;
+        }
+
         &--outline {
           border: 1px solid $btnPrimary;
           background-color: $white;
@@ -67,7 +82,7 @@
         }
       }
 
-      .addFuel {
+      .add--fuel {
         position: absolute;
         z-index: 222;
         width: 467px;
@@ -79,29 +94,34 @@
         flex-direction: column;
         padding: 58px 45px 224px 36px;
         display: none;
-        .text {
-          &--title {
-            @include cardTitle();
-            @extend %normalBold500;
-            margin-bottom: 66px;
-          }
+
+        &--active {
+          display: flex;
         }
 
-        .addFuel__input {
+        &__title {
+          @include cardTitle();
+          font-weight: 500;
+          font-style: normal;
+          margin-bottom: 66px;
+        }
+
+        &__input {
           @include addFuelInput();
           width: 386px;
           height: 48px;
           margin-bottom: 45px;
           padding-left: 16px;
         }
-        .addFuel__price {
+
+        &__price {
           position: relative;
           display: flex;
           align-items: center;
           margin-bottom: 93px;
           color: rgba(48, 48, 49, 0.75);
 
-          .addFuel__number {
+          &__number {
             @include addFuelInput();
             width: 73px;
             height: 38px;
@@ -110,15 +130,19 @@
             text-align: center;
           }
         }
-        .addFuell__btn {
+
+        &__btns {
           display: flex;
-          .btn {
+
+          &__btn {
             width: 121px;
             height: 36px;
             @include salesName();
-            @extend %normalBold500;
+            font-weight: 500;
+            font-style: normal;
             cursor: pointer;
             transition: 0.2s all ease-in-out;
+
             &-primary {
               border: none;
               color: $white;
@@ -130,6 +154,7 @@
                 border: 1px solid $btnPrimary;
               }
             }
+
             &-outline {
               color: $btnPrimary;
               border: 1px solid $btnPrimary;
@@ -141,7 +166,7 @@
                 background-color: $btnPrimary;
               }
             }
-            &-red {
+            &-cancle {
               background-color: $white;
               border: none;
               color: $textRed;
@@ -149,125 +174,139 @@
           }
         }
       }
-      .active {
-        display: flex;
-      }
     }
   }
 
-  .crud__list {
+  // CRUD LIST
+
+  &__content {
     width: 100%;
     height: 647px;
     padding-top: 51px;
     padding-left: 61px;
-    .crud__list--header {
+
+    &__header {
       display: flex;
       align-items: baseline;
       justify-content: space-between;
-      &-left {
+
+      &--info {
         padding-left: 61px;
         padding-right: 50px;
         width: 100%;
-        .header__title {
-          @extend %normalBold900;
-          color: $textDark;
-          font-size: 16px;
-          line-height: 19px;
-          letter-spacing: -0.0809524px;
-        }
       }
-      &-right {
+
+      &__title {
+        font-weight: 900;
+        font-style: normal;
+        color: $textDark;
+        font-size: 16px;
+        line-height: 19px;
+        letter-spacing: -0.0809524px;
+      }
+
+      &-number {
         width: 169px;
         padding-right: 14px;
         color: #868686;
       }
     }
-  }
 
-  .crud__list-content {
-    width: 100%;
-    padding-top: 28px;
-    .crud__card {
-      position: relative;
-      height: 60px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      margin-bottom: 15px;
-      background: $white;
-      box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
-      border-radius: 5px;
-      padding-right: 150px;
-      padding-left: 23px;
+    &__list {
+      width: 100%;
+      padding-top: 28px;
 
-      .dotsImg {
-        position: absolute;
-        top: 29.5px;
-        right: 26px;
-      }
-      .avatar {
-        margin: 0 12px 0 23px;
-      }
-      .card {
+      .crud__row {
+        position: relative;
+        height: 60px;
         display: flex;
         align-items: center;
-
-        &-left {
-          width: 200px;
-        }
-        &-right {
-          width: 100%;
-          justify-content: space-between;
-          padding: 0 75px 0 76px;
-        }
-      }
-      .text {
-        @include text13();
-        letter-spacing: -0.0747253px;
-        @extend %normalBold500;
-        &--dark {
-          color: $textDark;
-          &-bold {
-            font-weight: 900;
-          }
-        }
-
-        &--light {
-          color: $textLightGrey;
-        }
-      }
-
-      .crud__edit {
-        display: none;
-        position: absolute;
-        top: 47px;
-        right: 8px;
-        width: 240px;
-        height: 125px;
+        justify-content: space-between;
+        margin-bottom: 15px;
         background: $white;
-        box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
-        border-radius: 6px;
-        z-index: 11;
-        p {
-          font-family: $secondaryFont;
-          color: $textDarkGrey;
-          font-size: 14px;
-          line-height: 17px;
+        box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
+        border-radius: 5px;
+        padding-right: 150px;
+        padding-left: 23px;
+
+        &__img {
+          position: absolute;
+          top: 29.5px;
+          right: 26px;
+        }
+
+        .avatar {
+          margin: 0 12px 0 23px;
+        }
+
+        &__info {
           display: flex;
-          height: 41.6px;
           align-items: center;
-          padding: 15px 0 15px 21px;
-          cursor: pointer;
-          &:hover {
-            background-color: #e5e5e5;
+
+          &--provider {
+            width: 200px;
+          }
+          &--right {
+            width: 100%;
+            justify-content: space-between;
+            padding: 0 75px 0 76px;
+          }
+
+          &__desc {
+            @include text13();
+            letter-spacing: -0.0747253px;
+            font-weight: 500;
+            font-style: normal;
+
+            &--dark {
+              color: $textDark;
+              
+              &-bold {
+                font-weight: 900;
+              }
+            }
+
+            &--light {
+              color: $textLightGrey;
+            }
           }
         }
-        img {
-          margin-right: 13px;
+
+        &__edit {
+          display: none;
+          position: absolute;
+          top: 47px;
+          right: 8px;
+          width: 240px;
+          height: 125px;
+          background: $white;
+          box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+          border-radius: 6px;
+          z-index: 11;
+
+          &--active {
+            display: block;
+          }
+
+          &__method {
+            font-family: $secondaryFont;
+            color: $textDarkGrey;
+            font-size: 14px;
+            line-height: 17px;
+            display: flex;
+            height: 41.6px;
+            align-items: center;
+            padding: 15px 0 15px 21px;
+            cursor: pointer;
+            &:hover {
+              background-color: #e5e5e5;
+            }
+          }
+
+          &__icon {
+            margin-right: 13px;
+          }
         }
-      }
-      .active {
-        display: block;
       }
     }
   }

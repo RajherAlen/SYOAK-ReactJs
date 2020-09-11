@@ -8,21 +8,21 @@ import Fuel from "../components/fuel/Fuel";
 
 const Dashboard = () => {
   return (
-    <div className="dashboard__middle">
+    <div className="dashboard__content">
       {/* APP MIDDLE LEFT */}
-      <div className="dashboard__left">
+      <div className="dashboard__content__cards">
         <Fuel />
         <PriceStatistics />
 
         {/* APP MIDDLE LEFT BOTTOM */}
-        <div className="dashboard__bottom">
+        <div className="dashboard__content__cards__row">
           <OilGasProvider />
           <Activity />
         </div>
       </div>
 
       {/* APP MIDDLE RIGHT */}
-      <div className="dashboard__right">
+      <div>
         <SalesReport />
         <Messages />
       </div>
