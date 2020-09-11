@@ -7,52 +7,45 @@
   border-radius: 10px;
   padding: 36px 48px 32px 43px;
   margin-right: 32px;
-  .provider__title {
+
+  &__title {
     @include cardTitle();
     margin-bottom: 39px;
   }
 
-  .provider__card {
+  &__row {
     display: flex;
     margin-bottom: 35px;
 
     .avatar {
+      @include text13();
       width: 25px;
       height: 25px;
-      @include text13();
-      @extend %normalBold900;
+      font-weight: 900;
+      font-style: normal;
     }
-    .card__text {
+
+    &__content {
+      @include text12();
       width: 100%;
       margin-left: 15px;
       display: flex;
       align-items: center;
-      .card__right {
-        display: flex;
-        justify-content: space-between;
-        width: 100%;
-        padding-left: 64px;
+
+      &__name {
+        @include text12();
+        width: 74px;
+        font-weight: 600;
+        font-style: normal;
+        color: $textDark;
       }
 
-      .text {
-        @include text12();
-        // BOLD
-        &--bold {
-          width: 74px;
-          @extend %normalBold900;
-          &-dark {
-            color: $textDark;
-          }
-        }
-
-        // LIGHT
-        &--light {
-          @extend %normalBold500;
-          &-grey {
-            color: $textLightGrey;
-          }
-        }
-
+      &__location {
+        width: 100%;
+        padding-left: 64px;
+        font-weight: 500;
+        font-style: normal;
+        color: $textLightGrey;
         img {
           margin-right: 7px;
         }

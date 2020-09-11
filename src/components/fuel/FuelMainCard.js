@@ -16,13 +16,13 @@ const FuelMainCard = () => {
       </div>
 
       {/* GRAPH */}
-      <img src={curve} className="fuel__mainCard--graph" />
+      <img src={curve} className="fuel__mainCard__graph" />
 
       {/* LINE */}
       <img src={line} />
 
       {/* DATES */}
-      <div className="fuel__mainCard--dates">
+      <div className="fuel__mainCard__dates">
         <p>JAN</p>
         <p>FEB</p>
         <p>NAR</p>

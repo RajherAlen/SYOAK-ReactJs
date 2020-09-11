@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ProviderCard from "./ProviderCard";
+import ProviderCard from "./ProviderRow";
 
 const OilGasProvider = () => {
   const [providers, setProviders] = useState([

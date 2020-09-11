@@ -17,7 +17,7 @@
     border-bottom-left-radius: 10px;
     color: $white;
     &__content {
-      padding: 14px 169px 0 26px;
+      padding: 14px 0 0 26px;
 
       &--title {
         @include cardTitle();
@@ -40,12 +40,12 @@
     }
 
     // GRAPH
-    &--graph {
+    &__graph {
       margin-bottom: 4px;
     }
 
     // DATES
-    &--dates {
+    &__dates {
       @include smallDates();
       width: 100%;
       display: flex;

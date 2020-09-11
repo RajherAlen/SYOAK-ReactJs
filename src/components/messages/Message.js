@@ -5,14 +5,11 @@ import online from "./online.svg";
 
 const Message = ({ time, name, text, active }) => {
   return (
-    <div className={`messages__card ${active && "active"}`}>
+    <div className={`messages__row ${active && "messages__row--active"}`}>
       {/* Avatar */}
-      <div className="card__avatar">
-        <Avatar src={icon} />
-        <img src={online} className="avatar__circle" />
-      </div>
+      <img src={icon} className="messages__row__icon" />
       {/* Text */}
-      <div className="card__text">
+      <div className="messages__row__description">
         {/* Text left */}
         <div className="text__left">
           <h1 className="text text--bold text--bold-dark"> {name} </h1>

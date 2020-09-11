@@ -42,7 +42,8 @@
       font-style: normal;
     }
 
-    &__description {
+    // CONTENT
+    &__content {
       display: flex;
       width: 100%;
       justify-content: space-between;
@@ -54,11 +55,14 @@
         @include salesName();
       }
 
-      // LIGHT
-      &_statistics {
+      // STATISTICS
+      &_stats {
         font-weight: 600;
         font-style: normal;
-        color: $textGreen;
+
+        &--plus {
+          color: $textGreen;
+        }
       }
     }
   }

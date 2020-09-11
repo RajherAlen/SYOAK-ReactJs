@@ -1,14 +1,14 @@
-.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__description_title, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
+.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description .text--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
   font-weight: 900;
   font-style: normal;
 }
 
-.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel__mainCard--dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
+.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages__row__description .text--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title, .fuel__mainCard__content--title, .fuel__mainCard--dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
+.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -220,17 +220,17 @@
   margin-left: 7px;
 }
 
-.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__description_title, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
+.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description .text--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
   font-weight: 900;
   font-style: normal;
 }
 
-.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel__mainCard--dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
+.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages__row__description .text--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title, .fuel__mainCard__content--title, .fuel__mainCard--dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
+.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -295,7 +295,7 @@
   font-style: normal;
 }
 
-.sales__row__description {
+.sales__row__content {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -310,7 +310,7 @@
   text-transform: uppercase;
 }
 
-.sales__row__description_title {
+.sales__row__content_title {
   font-family: "Inter";
   font-size: 12.8px;
   line-height: 15px;
@@ -318,23 +318,26 @@
   color: #35384d;
 }
 
-.sales__row__description_statistics {
+.sales__row__content_stats {
   font-weight: 600;
   font-style: normal;
+}
+
+.sales__row__content_stats--plus {
   color: #5bb09c;
 }
 
-.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__description_title, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
+.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description .text--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
   font-weight: 900;
   font-style: normal;
 }
 
-.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel__mainCard--dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
+.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages__row__description .text--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title, .fuel__mainCard__content--title, .fuel__mainCard--dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
+.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -344,7 +347,7 @@
   letter-spacing: 0.32px;
 }
 
-.messages .messages__title {
+.messages__title {
   font-family: "Inter";
   font-size: 20px;
   line-height: 24px;
@@ -352,7 +355,7 @@
   padding-left: 24px;
 }
 
-.messages .messages__card {
+.messages__row {
   width: 349px;
   height: 60px;
   padding: 0 55px 0 23px;
@@ -365,18 +368,18 @@
   margin: 13px 0;
 }
 
-.messages .messages__card .card__avatar {
-  position: relative;
+.messages__row--active {
+  background-color: #fff;
+  -webkit-box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
+          box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
+  border-radius: 5px;
+}
+
+.messages__row__icon {
   margin-right: 15px;
 }
 
-.messages .messages__card .card__avatar .avatar__circle {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-}
-
-.messages .messages__card .card__text {
+.messages__row__description {
   width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -386,44 +389,37 @@
           justify-content: space-between;
 }
 
-.messages .messages__card .card__text .text {
+.messages__row__description .text {
   font-family: "Inter";
   font-size: 13px;
   line-height: 16px;
 }
 
-.messages .messages__card .card__text .text--bold-dark {
+.messages__row__description .text--bold-dark {
   color: #35384d;
 }
 
-.messages .messages__card .card__text .text--bold-grey {
+.messages__row__description .text--bold-grey {
   color: #9da8b6;
   font-size: 11.8px;
   line-height: 14px;
 }
 
-.messages .messages__card .card__text .text--light-grey {
+.messages__row__description .text--light-grey {
   color: #9da8b6;
 }
 
-.active {
-  background-color: #fff;
-  -webkit-box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
-          box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
-  border-radius: 5px;
-}
-
-.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__description_title, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
+.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description .text--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
   font-weight: 900;
   font-style: normal;
 }
 
-.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel__mainCard--dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
+.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages__row__description .text--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title, .fuel__mainCard__content--title, .fuel__mainCard--dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
+.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -442,51 +438,31 @@
   margin-right: 32px;
 }
 
-.provider .provider__title {
+.provider__title {
   font-family: "Inter";
   font-size: 20px;
   line-height: 24px;
   margin-bottom: 39px;
 }
 
-.provider .provider__card {
+.provider__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   margin-bottom: 35px;
 }
 
-.provider .provider__card .avatar {
-  width: 25px;
-  height: 25px;
+.provider__row .avatar {
   font-family: "Inter";
   font-size: 13px;
   line-height: 16px;
+  width: 25px;
+  height: 25px;
+  font-weight: 900;
+  font-style: normal;
 }
 
-.provider .provider__card .card__text {
-  width: 100%;
-  margin-left: 15px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.provider .provider__card .card__text .card__right {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  width: 100%;
-  padding-left: 64px;
-}
-
-.provider .provider__card .card__text .text {
+.provider__row__content {
   font-family: "Inter";
   font-size: 12px;
   line-height: 15px;
@@ -497,35 +473,52 @@
       -ms-flex-align: center;
           align-items: center;
   letter-spacing: -0.0747253px;
+  width: 100%;
+  margin-left: 15px;
+  display: flex;
+  align-items: center;
 }
 
-.provider .provider__card .card__text .text--bold {
+.provider__row__content__name {
+  font-family: "Inter";
+  font-size: 12px;
+  line-height: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  letter-spacing: -0.0747253px;
   width: 74px;
-}
-
-.provider .provider__card .card__text .text--bold-dark {
+  font-weight: 600;
+  font-style: normal;
   color: #35384d;
 }
 
-.provider .provider__card .card__text .text--light-grey {
+.provider__row__content__location {
+  width: 100%;
+  padding-left: 64px;
+  font-weight: 500;
+  font-style: normal;
   color: #9da8b6;
 }
 
-.provider .provider__card .card__text .text img {
+.provider__row__content__location img {
   margin-right: 7px;
 }
 
-.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__description_title, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
+.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description .text--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
   font-weight: 900;
   font-style: normal;
 }
 
-.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel__mainCard--dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
+.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages__row__description .text--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title, .fuel__mainCard__content--title, .fuel__mainCard--dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
+.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -543,7 +536,7 @@
   padding: 37px 28px 27px 36px;
 }
 
-.activity .activity__top {
+.activity__header {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -553,21 +546,23 @@
   margin-bottom: 47px;
 }
 
-.activity .activity__top .activity__title {
+.activity__header--title {
   font-family: "Inter";
   font-size: 20px;
   line-height: 24px;
   margin-right: 40px;
 }
 
-.activity .activity__top .acttivity__text {
+.activity__header--description {
   font-family: "Inter";
+  font-weight: 500;
+  font-style: normal;
   font-size: 16px;
   line-height: 19px;
   color: #9da8b6;
 }
 
-.activity .activity__card {
+.activity__row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -580,45 +575,52 @@
   margin-bottom: 38px;
 }
 
-.activity .activity__card .avatar {
+.activity__row .avatar {
   width: 35px;
   height: 35px;
   background-color: rgba(37, 215, 130, 0.5);
 }
 
-.activity .activity__card .text__wrap {
+.activity__row__wrap {
   margin-right: 30px;
 }
 
-.activity .activity__card .text {
+.activity__row__info {
   font-family: "Inter";
   font-size: 13px;
   line-height: 16px;
 }
 
-.activity .activity__card .text--bold-dark {
-  color: #35384d;
-}
-
-.activity .activity__card .text--bold-grey {
-  color: #9da8b6;
-}
-
-.activity .activity__card .text--light-grey {
-  color: #9da8b6;
-}
-
-.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__description_title, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
+.activity__row__info--bold {
   font-weight: 900;
   font-style: normal;
 }
 
-.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel__mainCard--dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
+.activity__row__info--bold-dark {
+  color: #35384d;
+}
+
+.activity__row__info--bold-light {
+  color: #9da8b6;
+}
+
+.activity__row__info--light {
+  font-weight: 600;
+  font-style: normal;
+  color: #9da8b6;
+}
+
+.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description .text--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
+  font-weight: 900;
+  font-style: normal;
+}
+
+.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages__row__description .text--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title, .fuel__mainCard__content--title, .fuel__mainCard--dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
+.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -651,7 +653,7 @@
 }
 
 .fuel__mainCard__content {
-  padding: 14px 169px 0 26px;
+  padding: 14px 0 0 26px;
 }
 
 .fuel__mainCard__content--title {
@@ -685,11 +687,11 @@
   margin-bottom: 9px;
 }
 
-.fuel__mainCard--graph {
+.fuel__mainCard__graph {
   margin-bottom: 4px;
 }
 
-.fuel__mainCard--dates {
+.fuel__mainCard__dates {
   font-family: "Quicksand", sans-serif;
   color: #ffffff;
   font-size: 8px;
@@ -764,17 +766,17 @@
   color: #dd4545;
 }
 
-.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__description_title, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
+.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description .text--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
   font-weight: 900;
   font-style: normal;
 }
 
-.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel__mainCard--dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
+.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages__row__description .text--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title, .fuel__mainCard__content--title, .fuel__mainCard--dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
+.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -819,7 +821,7 @@
   padding-left: 13px;
 }
 
-.header__search--input {
+.header__search__input {
   outline-width: 0;
   border: none;
   padding-left: 12px;
@@ -835,17 +837,17 @@
           justify-content: space-between;
 }
 
-.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__description_title, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
+.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description .text--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
   font-weight: 900;
   font-style: normal;
 }
 
-.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel__mainCard--dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
+.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages__row__description .text--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title, .fuel__mainCard__content--title, .fuel__mainCard--dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
+.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -896,17 +898,17 @@
   color: #ffffff;
 }
 
-.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__description_title, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
+.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description .text--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
   font-weight: 900;
   font-style: normal;
 }
 
-.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel__mainCard--dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
+.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages__row__description .text--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title, .fuel__mainCard__content--title, .fuel__mainCard--dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
+.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -946,17 +948,17 @@
   display: flex;
 }
 
-.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__description_title, .messages .messages__title, .messages .messages__card .card__text .text--bold, .provider .provider__title, .provider .provider__card .avatar, .provider .provider__card .card__text .text--bold, .activity .activity__top .activity__title, .activity .activity__card .text--bold, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
+.statistics__header__body--title, .statistics__header__body_graph_name--bold, .statistics__footer__item_description .text--bold, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description .text--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list .crud__list--header-left .header__title {
   font-weight: 900;
   font-style: normal;
 }
 
-.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages .messages__card .card__text .text--light, .provider .provider__card .card__text .text--light, .activity .activity__top .acttivity__text, .activity .activity__card .text--light, .fuel__mainCard--dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
+.statistics__header__body_graph_name--light, .statistics__footer__item_description .text--light, .messages__row__description .text--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic, .crud .crud__top .crud__top-left .crud__text-total, .crud .crud__top .crud__top-left .text, .crud .crud__top .crud__top-right .addFuel .text--title, .crud .crud__top .crud__top-right .addFuel .addFuell__btn .btn, .crud .crud__list-content .crud__card .text {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages .messages__title, .provider .provider__title, .activity .activity__top .activity__title, .fuel__mainCard__content--title, .fuel__mainCard--dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
+.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud .crud__top .crud__top-left .crud__title, .crud .crud__top .crud__top-right .addFuel .text--title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

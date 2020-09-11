@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import ActivityCard from "./ActivityCard";
+import ActivityRow from "./ActivityRow";
 
 const Activity = () => {
   const [activity, setActivity] = useState([
@@ -37,13 +37,13 @@ const Activity = () => {
 
   return (
     <div className="activity">
-      <div className="activity__top">
-        <h1 className="activity__title">Activity</h1>
-        <p className="acttivity__text">this month</p>
+      <div className="activity__header">
+        <h1 className="activity__header--title">Activity</h1>
+        <p className="activity__header--description">this month</p>
       </div>
 
       {activity.map((act, index) => (
-        <ActivityCard
+        <ActivityRow
           key={index}
           time={act.time}
           title={act.title}

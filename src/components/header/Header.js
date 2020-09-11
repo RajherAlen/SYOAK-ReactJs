@@ -10,7 +10,7 @@ const Header = () => {
         <img src={search} />
         <input
           type="text"
-          className="header__search--input"
+          className="header__search__input"
           placeholder="Search"
         />
       </div>
