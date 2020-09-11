@@ -29,7 +29,8 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
-      .text {
+
+      &__info {
         @include text13();
         // BOLD
         &--bold {

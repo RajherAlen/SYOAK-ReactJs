@@ -11,12 +11,20 @@ const Message = ({ time, name, text, active }) => {
       {/* Text */}
       <div className="messages__row__description">
         {/* Text left */}
-        <div className="text__left">
-          <h1 className="text text--bold text--bold-dark"> {name} </h1>
-          <p className="text text--light text--light-grey"> {text} </p>
+        <div>
+          <h1 className="messages__row__description__info messages__row__description__info--bold text--bold-dark">
+            {" "}
+            {name}{" "}
+          </h1>
+          <p className="messages__row__description__info messages__row__description__info--light messages__row__description__info--light-grey">
+            {" "}
+            {text}{" "}
+          </p>
         </div>
         {/* Text right */}
-        <p className="text text--bold text--bold-grey">{time}min</p>
+        <p className="messages__row__description__info messages__row__description__info--bold messages__row__description__info--bold-grey">
+          {time}min
+        </p>
       </div>
       {/* Text */}
     </div>
