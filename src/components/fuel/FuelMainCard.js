@@ -6,28 +6,30 @@ const FuelMainCard = () => {
   return (
     <div className="fuel__mainCard">
       {/* BACK_CARD */}
-      <div className="back__card"></div>
+      <div className="fuel__mainCard--back"></div>
 
       {/* CARD_TEXT */}
-      <div className="manCard__text">
-        <p className="text__title">Diesel Fuel</p>
-        <p className="text__price">$1.96</p>
-        <p className="text__small">AVG PRICE</p>
+      <div className="fuel__mainCard__content">
+        <p className="fuel__mainCard__content--title">Diesel Fuel</p>
+        <p className="fuel__mainCard__content--price">$1.96</p>
+        <p className="fuel__mainCard__content--tiny">AVG PRICE</p>
       </div>
 
       {/* GRAPH */}
-      <img src={curve} className="graph" />
+      <img src={curve} className="fuel__mainCard--graph" />
+
       {/* LINE */}
-      <img src={line} className="line" />
+      <img src={line} />
+
       {/* DATES */}
-      <div className="fuel__dates">
-        <p className="text__dates">JAN</p>
-        <p className="text__dates">FEB</p>
-        <p className="text__dates">NAR</p>
-        <p className="text__dates">APR</p>
-        <p className="text__dates">MAY</p>
-        <p className="text__dates">JUN</p>
-        <p className="text__dates">JUL</p>
+      <div className="fuel__mainCard--dates">
+        <p>JAN</p>
+        <p>FEB</p>
+        <p>NAR</p>
+        <p>APR</p>
+        <p>MAY</p>
+        <p>JUN</p>
+        <p>JUL</p>
       </div>
     </div>
   );

@@ -1,21 +1,23 @@
 import React from "react";
-import { Avatar } from "@material-ui/core";
 import search from "./search.svg";
 import notification from "./notification.svg";
 import avatarIcon from "./avatarIcon.svg";
-import logo from "./logo.svg";
 
 const Header = () => {
   return (
-    <header>
-      <div className="header__left">
+    <header className="header">
+      <div className="header__search">
         <img src={search} />
-        <input type="text" className="header__input" placeholder="Search" />
+        <input
+          type="text"
+          className="header__search--input"
+          placeholder="Search"
+        />
       </div>
 
-      <div className="header__right">
+      <div className="header__notification">
         <img src={notification} />
-        <Avatar className="header__avatar" src={avatarIcon} />
+        <img src={avatarIcon} />
       </div>
     </header>
   );

@@ -9,20 +9,21 @@
   align-items: center;
   padding-top: 19px;
 
-  .sidebar__logo {
+  &__logo {
     margin-bottom: 40px;
   }
-  .sidebar__card {
+  &__link {
     width: 40px;
     height: 40px;
     display: flex;
     justify-content: center;
     margin-bottom: 40px;
     border-radius: 5px;
-  }
-  .sidebar__cardActive {
-    background: $backOrange;
-    box-shadow: 0px 0px 4px rgba(255, 118, 22, 0.25);
-    color: $white;
+
+    &--active {
+      background: $backOrange;
+      box-shadow: 0px 0px 4px rgba(255, 118, 22, 0.25);
+      color: $white;
+    }
   }
 }

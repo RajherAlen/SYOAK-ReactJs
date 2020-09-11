@@ -4,7 +4,7 @@ import Graph from "./statisticComponents/StatisticsTop";
 
 const PriceStatistics = () => {
   return (
-    <div className="price__statistics">
+    <div className="statistics">
       <Graph />
       <StatisticBottom />
     </div>

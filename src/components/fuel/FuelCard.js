@@ -5,12 +5,12 @@ import arrowUp from "./arrowUp.svg";
 const FuelCard = ({ percentage, name, price, down }) => {
   return (
     <div className="fuel__card">
-      <p className="text__title"> {name} </p>
-      <p className="fuel__price">${price}</p>
-      <p className="fuel__smalltext">AVG PRICE</p>
+      <p className="fuel__card--title"> {name} </p>
+      <p className="fuel__card--price">${price}</p>
+      <p className="fuel__card--tiny">AVG PRICE</p>
       <p
-        className={`fuel--percentage ${
-          down ? "fuel--percentage-green" : "fuel--percentage-red"
+        className={`fuel__card--statistic ${
+          down ? "fuel__card--statistic-plus" : "fuel__card--statistic-minus"
         } `}
       >
         <img src={down ? arrowDown : arrowUp} /> {down ? "-" : "+"}

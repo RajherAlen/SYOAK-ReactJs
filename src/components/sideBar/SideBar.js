@@ -30,22 +30,22 @@ const SideBar = () => {
   return (
     <div className="sidebar">
       <img src={logo} className="sidebar__logo" />
-      <Link to="/">
+      <Link to="/" onClick={() => activeDashboard()}>
         <div
-          className={`sidebar__card ${
-            url === "http://localhost:3000/" ? "sidebar__cardActive" : ""
+          className={`sidebar__link ${
+            url === "http://localhost:3000/" ? "sidebar__link--active" : ""
           } `}
-          onClick={() => activeDashboard()}
         >
           <img src={url === "http://localhost:3000/" ? fuel : greyDash} />
         </div>
       </Link>
-      <Link to="/search">
+      <Link to="/search" onClick={() => activeSearch()}>
         <div
-          className={`sidebar__card ${
-            url === "http://localhost:3000/search" ? "sidebar__cardActive" : ""
+          className={`sidebar__link ${
+            url === "http://localhost:3000/search"
+              ? "sidebar__link--active"
+              : ""
           } `}
-          onClick={() => activeSearch()}
         >
           <img
             src={
@@ -54,10 +54,12 @@ const SideBar = () => {
           />
         </div>
       </Link>
-      <div className="sidebar__card">
-        <img src={stats} className="sidebar__stats" />
+      <div className="sidebar__link">
+        <img src={stats} />
       </div>
-      <img src={user} />
+      <div className="sidebar__link">
+        <img src={user} />
+      </div>
     </div>
   );
 };

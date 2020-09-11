@@ -1,96 +1,102 @@
 @import "../../styles/styles";
 
-.price__statistics {
+.statistics {
   background: #fff;
   width: 962px;
   height: 430px;
   border-radius: 10px;
   margin-bottom: 31px;
-  .statistics__top {
+
+  &__header {
     padding: 0 38px 0 42px;
     display: flex;
     // LEFT
-    .statistics__left {
+    &__body {
       flex: 2;
       padding-right: 80px;
-      .graph__title {
+
+      &--title {
         @include cardTitle();
         padding-top: 36px;
         margin-bottom: 55px;
       }
-      .graph__statistics {
+
+      &_graph {
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
         padding-left: 16px;
         margin-bottom: 59px;
-        .graph__line {
-          display: flex;
-          flex-direction: column;
-          .text {
-            @include text12();
-            display: flex;
-            align-items: center;
-            margin-top: 19px;
-            // Bold text 12px
-            &--bold {
-              @extend %normalBold900;
-              color: $textDark;
-              text-transform: uppercase;
-            }
+        text-align: center;
 
-            //Light text 12px
-            &--light-grey {
-              @extend %normalBold500;
-              color: $textLightGrey;
-            }
+        &_name {
+          @include text12();
+          display: flex;
+          align-items: center;
+          margin-top: 19px;
+
+          // Bold text 12px
+          &--bold {
+            @extend %normalBold900;
+            color: $textDark;
+            text-transform: uppercase;
           }
+
+          //Light text 12px
+          &--light {
+            @extend %normalBold500;
+            color: $textLightGrey;
+          }
+        }
+      }
+    }
+
+    // RIGHT
+    &__media {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding-left: 36px;
+      &_summary {
+        width: 242px;
+        margin-top: 9px;
+        margin-bottom: 20px;
+        font-family: $primaryFont;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        display: flex;
+        align-items: center;
+        text-align: center;
+        letter-spacing: -0.0747253px;
+        color: #00367a;
+      }
+
+      &_btn {
+        @include text12();
+        width: 241px;
+        height: 36px;
+        display: flex;
+        justify-content: center;
+        border: none;
+        cursor: pointer;
+        &--primary {
+          color: $white;
+          background: #054797;
         }
       }
     }
   }
 
-  // RIGHT
-  .statistics__right {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding-left: 36px;
-    .text {
-      width: 242px;
-      margin-top: 9px;
-      margin-bottom: 20px;
-      font-family: $primaryFont;
-      font-style: normal;
-      font-weight: 600;
-      font-size: 12px;
-      line-height: 15px;
-      display: flex;
-      align-items: center;
-      text-align: center;
-      letter-spacing: -0.0747253px;
-      color: #00367a;
-    }
-    .btn {
-      @include text12();
-      width: 241px;
-      height: 36px;
-      display: flex;
-      justify-content: center;
-      border: none;
-      color: $white;
-      background: #054797;
-    }
-  }
-
   // BOTTOM
-  .statistics__bottom {
+  &__footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 45px;
 
-    .bottom__card {
+    &_item {
       display: flex;
       .card__text {
         display: flex;

@@ -7,7 +7,7 @@ const PriceCard = ({ title, down, percentage, price, color, backColor }) => {
   const avatarTitle = title.charAt(0);
 
   return (
-    <div className="bottom__card">
+    <div className="statistics__footer_item">
       <Avatar
         style={{
           color: color,

@@ -48,7 +48,7 @@ const StatisticBottom = () => {
   ]);
 
   return (
-    <div className="statistics__bottom">
+    <div className="statistics__footer">
       {statistic.slice(0, 4).map((card, index) => (
         <PriceCard
           key={index}
