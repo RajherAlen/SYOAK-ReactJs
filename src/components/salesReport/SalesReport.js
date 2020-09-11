@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SalesCard from "./SalesCard";
+import SalesRow from "./SalesRow";
 
 const SalesReport = () => {
   const [reports, setReports] = useState([
@@ -55,16 +55,14 @@ const SalesReport = () => {
     <div className="sales">
       <h1 className="sales__title">Sales Report</h1>
 
-      <div className="sales__report">
-        <div className="sales__top">
-          <p className="text">#</p>
-          <p className="text">PROVIDER</p>
-          <p className="text">STATS</p>
-        </div>
+      <div className="sales__head">
+        <p>#</p>
+        <p>PROVIDER</p>
+        <p>STATS</p>
       </div>
 
       {reports.map((report, index) => (
-        <SalesCard
+        <SalesRow
           key={index}
           number={index + 1}
           title={report.title}

@@ -7,7 +7,7 @@ const PriceCard = ({ title, down, percentage, price, color, backColor }) => {
   const avatarTitle = title.charAt(0);
 
   return (
-    <div className="statistics__footer_item">
+    <div className="statistics__footer__item">
       <Avatar
         style={{
           color: color,
@@ -18,7 +18,8 @@ const PriceCard = ({ title, down, percentage, price, color, backColor }) => {
       >
         {avatarTitle}
       </Avatar>
-      <div className="card__text">
+      
+      <div className="statistics__footer__item_description">
         <div className="text__top">
           <h1 className="text text--bold"> {title} </h1>
           <img src={down ? arrowDown : arrowUp} />
@@ -28,9 +29,8 @@ const PriceCard = ({ title, down, percentage, price, color, backColor }) => {
             {down ? "-" : "+"} {percentage}%
           </p>
         </div>
-        <div>
-          <p className="text text--light-grey">${price}</p>
-        </div>
+
+        <p className="text text--light-grey">${price}</p>
       </div>
     </div>
   );

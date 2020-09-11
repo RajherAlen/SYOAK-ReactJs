@@ -96,9 +96,9 @@
     align-items: center;
     padding: 0 45px;
 
-    &_item {
+    &__item {
       display: flex;
-      .card__text {
+      &_description {
         display: flex;
         flex-direction: column;
         margin-left: 20px;
