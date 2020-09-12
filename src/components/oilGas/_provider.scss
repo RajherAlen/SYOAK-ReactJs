@@ -1,6 +1,6 @@
 @import "../../styles/styles";
 
-.provider {
+.oil-gas {
   width: 511px;
   height: 465px;
   background: #ffffff;
@@ -8,48 +8,64 @@
   padding: 36px 48px 32px 43px;
   margin-right: 32px;
 
-  &__title {
-    @include cardTitle();
-    margin-bottom: 39px;
-  }
-
   &__row {
     display: flex;
     margin-bottom: 35px;
+  }
 
-    .avatar {
-      @include text13();
-      width: 25px;
-      height: 25px;
+  &__info {
+    font-family: $primaryFont;
+    font-style: normal;
+
+    &--title {
       font-weight: 900;
-      font-style: normal;
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 39px;
     }
 
-    &__content {
-      @include text12();
-      width: 100%;
-      margin-left: 15px;
+    &--avatar {
+      font-family: $primaryFont !important;
+      font-size: 13px !important;
+      line-height: 16px !important;
+      width: 25px !important;
+      height: 25px !important;
+      font-weight: 900;
+      font-style: normal;
+      margin-right: 15px;
+    }
+
+    &--name {
+      font-size: 12px;
+      line-height: 15px;
       display: flex;
       align-items: center;
+      letter-spacing: -0.0747253px;
+      width: 74px;
+      font-weight: 600;
+      font-style: normal;
+      color: $textDark;
+    }
 
-      &__name {
-        @include text12();
-        width: 74px;
-        font-weight: 600;
-        font-style: normal;
-        color: $textDark;
-      }
+    &--location {
+      font-size: 12px;
+      line-height: 15px;
+      display: flex;
+      align-items: center;
+      letter-spacing: -0.0747253px;
+      width: 100%;
+      padding-left: 64px;
+      font-weight: 500;
+      font-style: normal;
+      color: $textLightGrey;
 
-      &__location {
-        width: 100%;
-        padding-left: 64px;
-        font-weight: 500;
-        font-style: normal;
-        color: $textLightGrey;
-        img {
-          margin-right: 7px;
-        }
+      &--icon {
+        margin-right: 7px;
       }
+    }
+
+    &--arrow {
+      cursor: pointer;
     }
   }
 }

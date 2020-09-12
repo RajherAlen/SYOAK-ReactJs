@@ -42,8 +42,8 @@ const OilGasProvider = () => {
   ]);
 
   return (
-    <div className="provider">
-      <h1 className="provider__title">Oil & Gas Provider</h1>
+    <div className="oil-gas">
+      <h1 className="oil-gas__info oil-gas__info--title">Oil & Gas Provider</h1>
 
       {providers.map((provider, index) => (
         <ProviderCard

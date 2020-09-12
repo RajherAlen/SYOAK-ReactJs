@@ -7,22 +7,22 @@ const ProviderRow = ({ name, location, color, backColor }) => {
   const avatarTitle = name.charAt(0);
 
   return (
-    <div className="provider__row">
+    <div className="oil-gas__row">
       <Avatar
-        className="avatar"
+        className="oil-gas__info oil-gas__info--avatar"
         style={{ color: color, background: backColor }}
       >
         {avatarTitle}
       </Avatar>
-      <div className="provider__row__content">
-        <h1 className="provider__row__content__name"> {name} </h1>
 
-        <p className="provider__row__content__location">
-          <img src={locationImg} /> {location}
-        </p>
+      <h1 className="oil-gas__info oil-gas__info--name"> {name} </h1>
 
-        <img src={arrow} />
-      </div>
+      <p className="oil-gas__info oil-gas__info--location">
+        <img src={locationImg} className="oil-gas__info--location--icon" />{" "}
+        {location}
+      </p>
+
+      <img src={arrow} className="oil-gas__info--arrow" />
     </div>
   );
 };
