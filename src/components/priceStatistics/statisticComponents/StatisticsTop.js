@@ -13,12 +13,12 @@ const StatisticsTop = () => {
   return (
     <div className="statistics__header">
       {/* HEADER BODY */}
-      <div className="statistics__header__content">
+      <div className="statistics__header__body-content">
         <h2 className="statistics__info statistics__info--title">
           Price Statistics
         </h2>
 
-        <div className="statistics__graph-content">
+        <div className="statistics__header__graph-content">
           <div>
             <img src={line1} />
             <h4 className="statistics__info statistics__info--graph-name statistics__info--graph-name--light">
@@ -67,13 +67,13 @@ const StatisticsTop = () => {
       <img src={verticalLine} />
 
       {/* HEADER MEDIA */}
-      <div className="statistics__media-content">
+      <div className="statistics__header__media-content">
         <img src={fuelPump} />
-        <p className="statistics__media-content__summary">
+        <p className="statistics__header__media-content__summary">
           Find the best gas prices in your state to maximize savings at the
           pump.
         </p>
-        <button className="statistics__media-content__btn statistics__media-content__btn--primary">
+        <button className="statistics__header__media-content__btn statistics__header__media-content__btn--primary">
           Find
         </button>
       </div>

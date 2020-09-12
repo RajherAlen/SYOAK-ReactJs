@@ -22,6 +22,7 @@ const CRUDlist = () => {
             <p className="crud__content__header__title">Price</p>
             <p className="crud__content__header__title">Date Created</p>
           </div>
+          
           <div className="crud__content__header crud__content__header-number ">
             <img src={arrowLeft} style={{ cursor: "pointer" }} />
 
