@@ -7,32 +7,61 @@
   margin-bottom: 67px;
   margin-top: 20px;
 
-  &__title {
-    font-family: $primaryFont;
-    font-weight: 900;
+  &__info {
     font-style: normal;
-    font-size: 20px;
-    line-height: 24px;
-    margin-bottom: 37px;
-    padding-left: 23px;
+    font-family: $primaryFont;
+    &--title {
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 37px;
+      padding-left: 23px;
+    }
+
+    &--index {
+      color: $textDark;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+    }
+
+    &--name {
+      font-weight: 900;
+      font-size: 12.8px;
+      line-height: 15px;
+      text-align: center;
+      color: $textDark;
+      text-transform: uppercase;
+      min-width: 70px;
+      display: flex;
+    }
+
+    &--stats {
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+
+      &--plus {
+        color: $textGreen;
+      }
+    }
   }
 
-  &__head {
-    font-family: $primaryFont;
-    color: $textLightGrey;
-    font-size: 13px;
-    line-height: 16px;
+  &__list-head {
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+    line-height: 16px;
+    color: $textLightGrey;
     padding: 0 99px 11px 29px;
   }
 
-  // ROW
-  &__row {
+  &__list-row {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     padding: 0 59px 0 29px;
-    width: 349px;
     height: 52px;
     margin-bottom: 13px;
 
@@ -40,43 +69,6 @@
       background-color: #fff;
       box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
       border-radius: 5px;
-    }
-
-    // BOLD NUMBER
-    &__index {
-      font-weight: 600;
-      font-style: normal;
-    }
-
-    // CONTENT
-    &__content {
-      font-family: $primaryFont;
-      display: flex;
-      width: 100%;
-      justify-content: space-between;
-      padding-left: 45px;
-      font-size: 13px;
-      line-height: 16px;
-      text-transform: uppercase;
-
-      &__title {
-        font-weight: 900;
-        font-style: normal;
-        font-size: 12.8px;
-        line-height: 15px;
-        text-align: center;
-        color: $textDark;
-      }
-
-      // STATISTICS
-      &__stats {
-        font-weight: 600;
-        font-style: normal;
-
-        &--plus {
-          color: $textGreen;
-        }
-      }
     }
   }
 }

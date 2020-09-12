@@ -53,9 +53,9 @@ const SalesReport = () => {
 
   return (
     <div className="sales">
-      <h1 className="sales__title">Sales Report</h1>
+      <h1 className="sales__info sales__info--title">Sales Report</h1>
 
-      <div className="sales__head">
+      <div className="sales__list-head">
         <p>#</p>
         <p>PROVIDER</p>
         <p>STATS</p>
