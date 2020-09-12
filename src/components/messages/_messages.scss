@@ -1,10 +1,48 @@
 @import "../../styles/styles";
 
 .messages {
-  &__title {
-    @include cardTitle();
-    margin-bottom: 29px;
-    padding-left: 24px;
+  width: 349px;
+  height: 415px;
+
+  &__info {
+    font-style: normal;
+    font-size: 13px;
+    line-height: 16px;
+
+    &--title {
+      font-family: $primaryFont;
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 24px;
+      margin-bottom: 29px;
+      padding-left: 24px;
+    }
+
+    // BOLD
+    &--bold {
+      font-weight: 900;
+      font-family: $primaryFont;
+
+      &--dark {
+        color: $textDark;
+      }
+
+      &--grey {
+        color: $textLightGrey;
+        font-size: 11.8px;
+        line-height: 14px;
+      }
+    }
+
+    // LIGHT
+    &--light {
+      font-family: $primaryFont;
+      font-weight: 500;
+
+      &--grey {
+        color: $textLightGrey;
+      }
+    }
   }
 
   &__row {
@@ -29,33 +67,6 @@
       width: 100%;
       display: flex;
       justify-content: space-between;
-
-      &__info {
-        @include text13();
-        // BOLD
-        &--bold {
-          @extend %normalBold900;
-
-          &-dark {
-            color: $textDark;
-          }
-
-          &-grey {
-            color: $textLightGrey;
-            font-size: 11.8px;
-            line-height: 14px;
-          }
-        }
-
-        // LIGHT
-        &--light {
-          @extend %normalBold500;
-
-          &-grey {
-            color: $textLightGrey;
-          }
-        }
-      }
     }
   }
 }

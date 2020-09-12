@@ -32,8 +32,8 @@ const Messages = () => {
   ]);
 
   return (
-    <div className="messages ">
-      <h1 className="messages__title">Messages</h1>
+    <div className="messages">
+      <h1 className="messages__info--title">Messages</h1>
       {messages.map((message, index) => (
         <Message
           key={index}
