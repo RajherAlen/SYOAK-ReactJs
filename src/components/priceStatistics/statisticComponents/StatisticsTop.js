@@ -13,49 +13,51 @@ const StatisticsTop = () => {
   return (
     <div className="statistics__header">
       {/* HEADER BODY */}
-      <div className="statistics__header__body">
-        <h2 className="statistics__header__body__title">Price Statistics</h2>
+      <div className="statistics__header__content">
+        <h2 className="statistics__info statistics__info--title">
+          Price Statistics
+        </h2>
 
-        <div className="statistics__header__body__graph">
+        <div className="statistics__graph-content">
           <div>
             <img src={line1} />
-            <h4 className="statistics__header__body__graph__name statistics__header__body__graph__name--light">
+            <h4 className="statistics__info statistics__info--graph-name statistics__info--graph-name--light">
               Q1
             </h4>
           </div>
           <div>
             <img src={line2} />
-            <h4 className="statistics__header__body__graph__name statistics__header__body__graph__name--light">
+            <h4 className="statistics__info statistics__info--graph-name statistics__info--graph-name--light">
               Q2
             </h4>
           </div>
           <div>
             <img src={line3} />
-            <h4 className="statistics__header__body__graph__name statistics__header__body__graph__name--light">
+            <h4 className="statistics__info statistics__info--graph-name statistics__info--graph-name--light">
               Q3
             </h4>
           </div>
           <div>
             <img src={line4} />
-            <h4 className="statistics__header__body__graph__name statistics__header__body__graph__name--bold">
+            <h4 className="statistics__info statistics__info--graph-name statistics__info--graph-name--bold">
               2018
             </h4>
           </div>
           <div>
             <img src={line5} />
-            <h4 className="statistics__header__body__graph__name statistics__header__body__graph__name--light">
+            <h4 className="statistics__info statistics__info--graph-name statistics__info--graph-name--light">
               Q1
             </h4>
           </div>
           <div>
             <img src={line6} />
-            <h4 className="statistics__header__body__graph__name statistics__header__body__graph__name--light">
+            <h4 className="statistics__info statistics__info--graph-name statistics__info--graph-name--light">
               Q2
             </h4>
           </div>
           <div>
             <img src={line7} />
-            <h4 className="statistics__header__body__graph__name statistics__header__body__graph__name--light">
+            <h4 className="statistics__info statistics__info--graph-name statistics__info--graph-name--light">
               Q3
             </h4>
           </div>
@@ -65,13 +67,13 @@ const StatisticsTop = () => {
       <img src={verticalLine} />
 
       {/* HEADER MEDIA */}
-      <div className="statistics__header__media">
+      <div className="statistics__media-content">
         <img src={fuelPump} />
-        <p className="statistics__header__media__summary">
+        <p className="statistics__media-content__summary">
           Find the best gas prices in your state to maximize savings at the
           pump.
         </p>
-        <button className="statistics__header__media_btn statistics__header__media_btn--primary">
+        <button className="statistics__media-content__btn statistics__media-content__btn--primary">
           Find
         </button>
       </div>

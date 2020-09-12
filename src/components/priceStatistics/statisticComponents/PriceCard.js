@@ -7,7 +7,7 @@ const PriceCard = ({ title, down, percentage, price, color, backColor }) => {
   const avatarTitle = title.charAt(0);
 
   return (
-    <div className="statistics__footer__item">
+    <div className="statistics__row">
       <Avatar
         style={{
           color: color,
@@ -19,25 +19,25 @@ const PriceCard = ({ title, down, percentage, price, color, backColor }) => {
         {avatarTitle}
       </Avatar>
 
-      <div className="statistics__footer__item__description">
-        <div className="statistics__footer__item__description__head">
-          <h1 className="statistics__footer__item__description__head__info statistics__footer__item__description__head__info--bold">
+      <div className="statistics__desc">
+        <div className="statistics__desc__flex">
+          <h1 className="statistics__info  statistics__info--fuel-name">
             {" "}
             {title}{" "}
           </h1>
           <img src={down ? arrowDown : arrowUp} />
           <p
-            className={`statistics__footer__item__description__head__info ${
+            className={`statistics__info  ${
               down
-                ? "statistics__footer__item__description__head__info--light--plus"
-                : "statistics__footer__item__description__head__info--light--minus"
+                ? "statistics__info statistics__info--stats statistics__info--stats--plus"
+                : "statistics__info statistics__info--stats statistics__info--stats--minus"
             }`}
           >
             {down ? "-" : "+"} {percentage}%
           </p>
         </div>
 
-        <p className="statistics__footer__item__description__head__info statistics__footer__item__description__head__info--light--grey">
+        <p className="statistics__info statistics__info--stats statistics__info--stats--price">
           ${price}
         </p>
       </div>
