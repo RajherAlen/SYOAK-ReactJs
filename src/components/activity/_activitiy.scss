@@ -9,17 +9,20 @@
 
   //TOP
   &__header {
+    font-family: $primaryFont;
     display: flex;
     align-items: center;
     margin-bottom: 47px;
+    font-style: normal;
 
     &--title {
-      @include cardTitle();
+      font-weight: 900;
+      font-size: 20px;
+      line-height: 24px;
       margin-right: 40px;
     }
 
     &--description {
-      font-family: $primaryFont;
       font-weight: 500;
       font-style: normal;
       font-size: 16px;
@@ -35,29 +38,25 @@
     align-items: center;
     margin-bottom: 38px;
 
-    .avatar {
-      width: 35px;
-      height: 35px;
-      background-color: rgba(37, 215, 130, 0.5);
-    }
-
     &__wrap {
       margin-right: 30px;
     }
 
     &__info {
-      @include text13();
+      font-family: $primaryFont;
+      font-size: 13px;
+      line-height: 16px;
 
       // BOLD
       &--bold {
         font-weight: 900;
         font-style: normal;
 
-        &-dark {
+        &--dark {
           color: $textDark;
         }
 
-        &-grey {
+        &--grey {
           color: $textLightGrey;
         }
       }
@@ -66,7 +65,8 @@
       &--light {
         font-weight: 500;
         font-style: normal;
-        &-grey {
+
+        &--grey {
           color: $textLightGrey;
         }
       }
