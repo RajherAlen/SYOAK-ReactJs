@@ -1,14 +1,14 @@
-.statistics__header__body--title, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add--fuel__title, .crud__header__btns .add--fuel__btns__btn {
+.statistics__header__body__title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add-fuel__title, .crud__header__btns .add-fuel__btns__btn {
   font-weight: 900;
   font-style: normal;
 }
 
-.messages__row__description__info--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic {
+.messages__row__description__info--light {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud__header__info--title, .crud__header__btns .add--fuel__title {
+.statistics__header__body__title, .messages__title, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__btns .add-fuel__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -40,7 +40,7 @@
   padding-right: 80px;
 }
 
-.statistics__header__body--title {
+.statistics__header__body__title {
   font-family: "Inter";
   font-size: 20px;
   line-height: 24px;
@@ -48,7 +48,7 @@
   margin-bottom: 55px;
 }
 
-.statistics__header__body_graph {
+.statistics__header__body__graph {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -63,7 +63,7 @@
   text-align: center;
 }
 
-.statistics__header__body_graph_name {
+.statistics__header__body__graph__name {
   font-family: "Inter";
   font-size: 12px;
   line-height: 15px;
@@ -79,14 +79,14 @@
   margin-top: 19px;
 }
 
-.statistics__header__body_graph_name--bold {
+.statistics__header__body__graph__name--bold {
   font-weight: 900;
   font-style: normal;
   color: #35384d;
   text-transform: uppercase;
 }
 
-.statistics__header__body_graph_name--light {
+.statistics__header__body__graph__name--light {
   font-weight: 500;
   font-style: normal;
   color: #9da8b6;
@@ -106,7 +106,7 @@
   padding-left: 36px;
 }
 
-.statistics__header__media_summary {
+.statistics__header__media__summary {
   width: 242px;
   margin-top: 9px;
   margin-bottom: 20px;
@@ -220,31 +220,31 @@
   font-style: normal;
 }
 
-.statistics__footer__item__description__head__info--light-grey {
+.statistics__footer__item__description__head__info--light--grey {
   color: #9da8b6;
 }
 
-.statistics__footer__item__description__head__info--light-minus {
+.statistics__footer__item__description__head__info--light--minus {
   color: #dd4545;
   margin-left: 7px;
 }
 
-.statistics__footer__item__description__head__info--light-plus {
+.statistics__footer__item__description__head__info--light--plus {
   color: #5bb09c;
   margin-left: 7px;
 }
 
-.statistics__header__body--title, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add--fuel__title, .crud__header__btns .add--fuel__btns__btn {
+.statistics__header__body__title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add-fuel__title, .crud__header__btns .add-fuel__btns__btn {
   font-weight: 900;
   font-style: normal;
 }
 
-.messages__row__description__info--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic {
+.messages__row__description__info--light {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud__header__info--title, .crud__header__btns .add--fuel__title {
+.statistics__header__body__title, .messages__title, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__btns .add-fuel__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -264,6 +264,8 @@
 
 .sales__title {
   font-family: "Inter";
+  font-weight: 900;
+  font-style: normal;
   font-size: 20px;
   line-height: 24px;
   margin-bottom: 37px;
@@ -272,9 +274,9 @@
 
 .sales__head {
   font-family: "Inter";
+  color: #9da8b6;
   font-size: 13px;
   line-height: 16px;
-  color: #9da8b6;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -310,6 +312,7 @@
 }
 
 .sales__row__content {
+  font-family: "Inter";
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -318,40 +321,40 @@
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding-left: 45px;
-  font-family: "Inter";
   font-size: 13px;
   line-height: 16px;
   text-transform: uppercase;
 }
 
-.sales__row__content_title {
-  font-family: "Inter";
+.sales__row__content__title {
+  font-weight: 900;
+  font-style: normal;
   font-size: 12.8px;
   line-height: 15px;
   text-align: center;
   color: #35384d;
 }
 
-.sales__row__content_stats {
+.sales__row__content__stats {
   font-weight: 600;
   font-style: normal;
 }
 
-.sales__row__content_stats--plus {
+.sales__row__content__stats--plus {
   color: #5bb09c;
 }
 
-.statistics__header__body--title, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add--fuel__title, .crud__header__btns .add--fuel__btns__btn {
+.statistics__header__body__title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add-fuel__title, .crud__header__btns .add-fuel__btns__btn {
   font-weight: 900;
   font-style: normal;
 }
 
-.messages__row__description__info--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic {
+.messages__row__description__info--light {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud__header__info--title, .crud__header__btns .add--fuel__title {
+.statistics__header__body__title, .messages__title, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__btns .add-fuel__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -423,17 +426,17 @@
   color: #9da8b6;
 }
 
-.statistics__header__body--title, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add--fuel__title, .crud__header__btns .add--fuel__btns__btn {
+.statistics__header__body__title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add-fuel__title, .crud__header__btns .add-fuel__btns__btn {
   font-weight: 900;
   font-style: normal;
 }
 
-.messages__row__description__info--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic {
+.messages__row__description__info--light {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud__header__info--title, .crud__header__btns .add--fuel__title {
+.statistics__header__body__title, .messages__title, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__btns .add-fuel__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -522,17 +525,17 @@
   margin-right: 7px;
 }
 
-.statistics__header__body--title, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add--fuel__title, .crud__header__btns .add--fuel__btns__btn {
+.statistics__header__body__title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add-fuel__title, .crud__header__btns .add-fuel__btns__btn {
   font-weight: 900;
   font-style: normal;
 }
 
-.messages__row__description__info--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic {
+.messages__row__description__info--light {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud__header__info--title, .crud__header__btns .add--fuel__title {
+.statistics__header__body__title, .messages__title, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__btns .add-fuel__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -627,17 +630,17 @@
   color: #9da8b6;
 }
 
-.statistics__header__body--title, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add--fuel__title, .crud__header__btns .add--fuel__btns__btn {
+.statistics__header__body__title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add-fuel__title, .crud__header__btns .add-fuel__btns__btn {
   font-weight: 900;
   font-style: normal;
 }
 
-.messages__row__description__info--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic {
+.messages__row__description__info--light {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud__header__info--title, .crud__header__btns .add--fuel__title {
+.statistics__header__body__title, .messages__title, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__btns .add-fuel__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -659,7 +662,68 @@
   margin-bottom: 110px;
 }
 
-.fuel__mainCard {
+.fuel__info {
+  font-family: "Inter";
+}
+
+.fuel__info--price {
+  font-weight: 900;
+  font-family: "Inter";
+}
+
+.fuel__info--price--lrg {
+  font-size: 35px;
+  line-height: 42px;
+  margin-bottom: 8px;
+}
+
+.fuel__info--price--sml {
+  font-size: 25px;
+  line-height: 30px;
+  margin-top: 29px;
+  margin-bottom: 5px;
+}
+
+.fuel__info--title {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.fuel__info--tiny {
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 0.4px;
+  margin-bottom: 9px;
+}
+
+.fuel__info--stats {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.269474px;
+}
+
+.fuel__info--stats--plus {
+  color: #33d067;
+}
+
+.fuel__info--stats--minus {
+  color: #dd4545;
+}
+
+.fuel__card {
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 200px;
+  height: 182px;
+  padding: 21px 22px 15px 20px;
+  background: #ffffff;
+  font-style: normal;
+}
+
+.fuel__main-card {
   background-color: #0052b4;
   position: relative;
   width: 308px;
@@ -669,63 +733,7 @@
   color: #ffffff;
 }
 
-.fuel__mainCard__content {
-  padding: 14px 0 0 26px;
-}
-
-.fuel__mainCard__content--title {
-  font-family: "Inter";
-  font-size: 20px;
-  line-height: 24px;
-}
-
-.fuel__mainCard__content--price {
-  font-family: "Inter";
-  font-size: 35px;
-  line-height: 42px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  letter-spacing: 0.4px;
-  color: #ffffff;
-  margin-bottom: 8px;
-}
-
-.fuel__mainCard__content--tiny {
-  font-family: "Inter";
-  font-weight: 500;
-  font-style: normal;
-  font-size: 10px;
-  line-height: 12px;
-  letter-spacing: 0.4px;
-  margin-bottom: 9px;
-}
-
-.fuel__mainCard__graph {
-  margin-bottom: 4px;
-}
-
-.fuel__mainCard__dates {
-  font-family: "Quicksand", sans-serif;
-  color: #ffffff;
-  font-size: 8px;
-  line-height: 9px;
-  mix-blend-mode: normal;
-  opacity: 0.5;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  padding: 10px 29px 0 29px;
-}
-
-.fuel__mainCard--back {
+.fuel__main-card--back {
   position: absolute;
   width: 280px;
   height: 206px;
@@ -737,63 +745,43 @@
   z-index: -1;
 }
 
-.fuel__card {
-  background: #ffffff;
-  border-bottom-right-radius: 10px;
-  border-bottom-left-radius: 10px;
-  width: 200px;
-  height: 182px;
-  padding: 21px 22px 15px 20px;
+.fuel__main-card__content {
+  padding: 14px 0 0 26px;
+  font-style: normal;
+  font-family: "Inter";
 }
 
-.fuel__card--title {
-  font-family: "Inter";
-  font-size: 20px;
-  line-height: 24px;
+.fuel__main-card__graph {
+  margin-bottom: 4px;
 }
 
-.fuel__card--price {
-  margin-top: 29px;
-  margin-bottom: 5px;
-  font-family: "Inter";
-  font-size: 25px;
-  line-height: 30px;
-}
-
-.fuel__card--tiny {
-  font-family: "Inter";
-  color: #9da8b6;
+.fuel__main-card__dates {
+  font-family: "Quicksand", sans-serif;
   font-size: 8px;
-  line-height: 10px;
-  margin-bottom: 29px;
+  line-height: 9px;
+  font-weight: 500;
+  opacity: 0.5;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 10px 29px 0 29px;
 }
 
-.fuel__card--statistic {
-  font-family: "Inter";
-  font-size: 16px;
-  line-height: 19px;
-  letter-spacing: 0.269474px;
-}
-
-.fuel__card--statistic-plus {
-  color: #33d067;
-}
-
-.fuel__card--statistic-minus {
-  color: #dd4545;
-}
-
-.statistics__header__body--title, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add--fuel__title, .crud__header__btns .add--fuel__btns__btn {
+.statistics__header__body__title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add-fuel__title, .crud__header__btns .add-fuel__btns__btn {
   font-weight: 900;
   font-style: normal;
 }
 
-.messages__row__description__info--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic {
+.messages__row__description__info--light {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud__header__info--title, .crud__header__btns .add--fuel__title {
+.statistics__header__body__title, .messages__title, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__btns .add-fuel__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -821,7 +809,7 @@
   padding-right: 33px;
 }
 
-.header__search {
+.header__search-form {
   position: relative;
   background-color: #ffffff;
   -webkit-box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
@@ -838,7 +826,7 @@
   padding-left: 13px;
 }
 
-.header__search__input {
+.header__search-form__input {
   outline-width: 0;
   border: none;
   padding-left: 12px;
@@ -854,17 +842,17 @@
           justify-content: space-between;
 }
 
-.statistics__header__body--title, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add--fuel__title, .crud__header__btns .add--fuel__btns__btn {
+.statistics__header__body__title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add-fuel__title, .crud__header__btns .add-fuel__btns__btn {
   font-weight: 900;
   font-style: normal;
 }
 
-.messages__row__description__info--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic {
+.messages__row__description__info--light {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud__header__info--title, .crud__header__btns .add--fuel__title {
+.statistics__header__body__title, .messages__title, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__btns .add-fuel__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -915,17 +903,17 @@
   color: #ffffff;
 }
 
-.statistics__header__body--title, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add--fuel__title, .crud__header__btns .add--fuel__btns__btn {
+.statistics__header__body__title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add-fuel__title, .crud__header__btns .add-fuel__btns__btn {
   font-weight: 900;
   font-style: normal;
 }
 
-.messages__row__description__info--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic {
+.messages__row__description__info--light {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud__header__info--title, .crud__header__btns .add--fuel__title {
+.statistics__header__body__title, .messages__title, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__btns .add-fuel__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -965,17 +953,17 @@
   display: flex;
 }
 
-.statistics__header__body--title, .sales__title, .sales__row__content_title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__content--price, .fuel__card--title, .fuel__card--price, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add--fuel__title, .crud__header__btns .add--fuel__btns__btn {
+.statistics__header__body__title, .messages__title, .messages__row__description__info--bold, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__info--total, .crud__header__btns .add-fuel__title, .crud__header__btns .add-fuel__btns__btn {
   font-weight: 900;
   font-style: normal;
 }
 
-.messages__row__description__info--light, .fuel__mainCard__dates, .fuel__card--tiny, .fuel__card--statistic {
+.messages__row__description__info--light {
   font-weight: 500;
   font-style: normal;
 }
 
-.statistics__header__body--title, .sales__title, .messages__title, .provider__title, .activity__header--title, .fuel__mainCard__content--title, .fuel__mainCard__dates, .fuel__card--title, .fuel__card--price, .fuel__card--tiny, .crud__header__info--title, .crud__header__btns .add--fuel__title {
+.statistics__header__body__title, .messages__title, .provider__title, .activity__header--title, .crud__header__info--title, .crud__header__btns .add-fuel__title {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1108,7 +1096,7 @@
   margin-right: 2px;
 }
 
-.crud__header__btns .add--fuel {
+.crud__header__btns .add-fuel {
   position: absolute;
   z-index: 222;
   width: 467px;
@@ -1127,13 +1115,13 @@
   display: none;
 }
 
-.crud__header__btns .add--fuel--active {
+.crud__header__btns .add-fuel--active {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.crud__header__btns .add--fuel__title {
+.crud__header__btns .add-fuel__title {
   font-family: "Inter";
   font-size: 20px;
   line-height: 24px;
@@ -1142,7 +1130,7 @@
   margin-bottom: 66px;
 }
 
-.crud__header__btns .add--fuel__input {
+.crud__header__btns .add-fuel__input {
   font-family: "Inter";
   background-color: #ffffff;
   font-weight: normal;
@@ -1160,7 +1148,7 @@
   padding-left: 16px;
 }
 
-.crud__header__btns .add--fuel__price {
+.crud__header__btns .add-fuel__price {
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1172,7 +1160,7 @@
   color: rgba(48, 48, 49, 0.75);
 }
 
-.crud__header__btns .add--fuel__price__number {
+.crud__header__btns .add-fuel__price__number {
   font-family: "Inter";
   background-color: #ffffff;
   font-weight: normal;
@@ -1191,13 +1179,13 @@
   text-align: center;
 }
 
-.crud__header__btns .add--fuel__btns {
+.crud__header__btns .add-fuel__btns {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.crud__header__btns .add--fuel__btns__btn {
+.crud__header__btns .add-fuel__btns__btn {
   width: 121px;
   height: 36px;
   font-family: "Inter";
@@ -1212,32 +1200,32 @@
   transition: 0.2s all ease-in-out;
 }
 
-.crud__header__btns .add--fuel__btns__btn-primary {
+.crud__header__btns .add-fuel__btns__btn--primary {
   border: none;
   color: #ffffff;
   background-color: #0052b4;
   margin-right: 22px;
 }
 
-.crud__header__btns .add--fuel__btns__btn-primary:hover {
+.crud__header__btns .add-fuel__btns__btn--primary:hover {
   background-color: #ffffff;
   color: #0052b4;
   border: 1px solid #0052b4;
 }
 
-.crud__header__btns .add--fuel__btns__btn-outline {
+.crud__header__btns .add-fuel__btns__btn--outline {
   color: #0052b4;
   border: 1px solid #0052b4;
   background-color: #ffffff;
 }
 
-.crud__header__btns .add--fuel__btns__btn-outline:hover {
+.crud__header__btns .add-fuel__btns__btn--outline:hover {
   border: none;
   color: #ffffff;
   background-color: #0052b4;
 }
 
-.crud__header__btns .add--fuel__btns__btn-cancle {
+.crud__header__btns .add-fuel__btns__btn--cancle {
   background-color: #ffffff;
   border: none;
   color: #dd4545;

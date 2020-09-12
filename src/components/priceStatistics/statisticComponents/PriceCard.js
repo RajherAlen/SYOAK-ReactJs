@@ -29,15 +29,15 @@ const PriceCard = ({ title, down, percentage, price, color, backColor }) => {
           <p
             className={`statistics__footer__item__description__head__info ${
               down
-                ? "statistics__footer__item__description__head__info--light-plus"
-                : "statistics__footer__item__description__head__info--light-minus"
+                ? "statistics__footer__item__description__head__info--light--plus"
+                : "statistics__footer__item__description__head__info--light--minus"
             }`}
           >
             {down ? "-" : "+"} {percentage}%
           </p>
         </div>
 
-        <p className="statistics__footer__item__description__head__info statistics__footer__item__description__head__info--light-grey">
+        <p className="statistics__footer__item__description__head__info statistics__footer__item__description__head__info--light--grey">
           ${price}
         </p>
       </div>

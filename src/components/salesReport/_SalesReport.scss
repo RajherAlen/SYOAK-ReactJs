@@ -8,14 +8,20 @@
   margin-top: 20px;
 
   &__title {
-    @include cardTitle();
+    font-family: $primaryFont;
+    font-weight: 900;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
     margin-bottom: 37px;
     padding-left: 23px;
   }
 
   &__head {
-    @include text13();
+    font-family: $primaryFont;
     color: $textLightGrey;
+    font-size: 13px;
+    line-height: 16px;
     display: flex;
     justify-content: space-between;
     padding: 0 99px 11px 29px;
@@ -44,19 +50,26 @@
 
     // CONTENT
     &__content {
+      font-family: $primaryFont;
       display: flex;
       width: 100%;
       justify-content: space-between;
       padding-left: 45px;
-      @include text13();
+      font-size: 13px;
+      line-height: 16px;
       text-transform: uppercase;
 
-      &_title {
-        @include salesName();
+      &__title {
+        font-weight: 900;
+        font-style: normal;
+        font-size: 12.8px;
+        line-height: 15px;
+        text-align: center;
+        color: $textDark;
       }
 
       // STATISTICS
-      &_stats {
+      &__stats {
         font-weight: 600;
         font-style: normal;
 

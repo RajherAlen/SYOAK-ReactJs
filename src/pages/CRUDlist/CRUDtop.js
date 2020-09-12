@@ -33,14 +33,14 @@ const CRUDtop = () => {
         </button>
 
         {/* ADD FUEL */}
-        <div className={`add--fuel ${addFuel && "add--fuel--active"}`}>
-          <p className="add--fuel__title">Add Fuel </p>
+        <div className={`add-fuel ${addFuel && "add-fuel--active"}`}>
+          <p className="add-fuel__title">Add Fuel </p>
           <input
             type="text"
             placeholder="Provider Name"
-            className="add--fuel__input"
+            className="add-fuel__input"
           />
-          <select className="add--fuel__input">
+          <select className="add-fuel__input">
             <option value="fueltype" disabled selected>
               Fuel Type
             </option>
@@ -51,9 +51,9 @@ const CRUDtop = () => {
           <input
             type="text"
             placeholder="Fuel Name"
-            className="add--fuel__input"
+            className="add-fuel__input"
           />
-          <div className="add--fuel__price">
+          <div className="add-fuel__price">
             <p>Price: </p>
 
             <input
@@ -61,7 +61,7 @@ const CRUDtop = () => {
               placeholder="1"
               min="0"
               max="100"
-              className="add--fuel__price__number"
+              className="add-fuel__price__number"
             />
 
             <input
@@ -69,18 +69,18 @@ const CRUDtop = () => {
               placeholder="00"
               min="0"
               max="100"
-              className="add--fuel__price__number"
+              className="add-fuel__price__number"
             />
           </div>
-          <div className="add--fuel__btns">
-            <button className="add--fuel__btns__btn add--fuel__btns__btn-primary">
+          <div className="add-fuel__btns">
+            <button className="add-fuel__btns__btn add-fuel__btns__btn--primary">
               Save Changes
             </button>
-            <button className="add--fuel__btns__btn add--fuel__btns__btn-outline">
+            <button className="add-fuel__btns__btn add-fuel__btns__btn--outline">
               Preview
             </button>
             <button
-              className="add--fuel__btns__btn add--fuel__btns__btn-cancle"
+              className="add-fuel__btns__btn add-fuel__btns__btn--cancle"
               onClick={() => setAddFuel(false)}
             >
               Cancle

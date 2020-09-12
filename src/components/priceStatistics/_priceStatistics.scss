@@ -16,13 +16,13 @@
       flex: 2;
       padding-right: 80px;
 
-      &--title {
+      &__title {
         @include cardTitle();
         padding-top: 36px;
         margin-bottom: 55px;
       }
 
-      &_graph {
+      &__graph {
         display: flex;
         align-items: flex-end;
         justify-content: space-between;
@@ -30,7 +30,7 @@
         margin-bottom: 59px;
         text-align: center;
 
-        &_name {
+        &__name {
           @include text12();
           display: flex;
           align-items: center;
@@ -61,7 +61,7 @@
       justify-content: center;
       padding-left: 36px;
 
-      &_summary {
+      &__summary {
         width: 242px;
         margin-top: 9px;
         margin-bottom: 20px;
@@ -134,18 +134,18 @@
               font-weight: 500;
               font-style: normal;
 
-              &-grey {
+              &--grey {
                 color: $textLightGrey;
               }
 
               //Red text
-              &-minus {
+              &--minus {
                 color: $textRed;
                 margin-left: 7px;
               }
 
               //Green text
-              &-plus {
+              &--plus {
                 color: $textGreen;
                 margin-left: 7px;
               }

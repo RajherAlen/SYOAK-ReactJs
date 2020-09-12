@@ -6,11 +6,11 @@ import avatarIcon from "./avatarIcon.svg";
 const Header = () => {
   return (
     <header className="header">
-      <div className="header__search">
+      <div className="header__search-form">
         <img src={search} />
         <input
           type="text"
-          className="header__search__input"
+          className="header__search-form__input"
           placeholder="Search"
         />
       </div>
