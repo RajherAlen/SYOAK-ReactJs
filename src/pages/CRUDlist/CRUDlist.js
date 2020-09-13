@@ -15,20 +15,29 @@ const CRUDlist = () => {
       <div className="crud__content">
         {/* CRUD CONTENT HEADER */}
         <div className="crud__content__header">
-          <div className="crud__content__header crud__content__header--info">
-            <p className="crud__content__header__title">Provider</p>
-            <p className="crud__content__header__title">Fuel Type</p>
-            <p className="crud__content__header__title">Fuel Name</p>
-            <p className="crud__content__header__title">Price</p>
-            <p className="crud__content__header__title">Date Created</p>
+          <div className="crud__content__header crud__content__header__info">
+            <p className="crud__content__info-header crud__content__info-header--title">
+              Provider
+            </p>
+            <p className="crud__content__info-header crud__content__info-header--title">
+              Fuel Type
+            </p>
+            <p className="crud__content__info-header crud__content__info-header--title">
+              Fuel Name
+            </p>
+            <p className="crud__content__info-header crud__content__info-header--title">
+              Price
+            </p>
+            <p className="crud__content__info-header crud__content__info-header--title">
+              Date Created
+            </p>
           </div>
-          
-          <div className="crud__content__header crud__content__header-number ">
-            <img src={arrowLeft} style={{ cursor: "pointer" }} />
 
-            <p>1</p>
-            <p>2</p>
-            <p>3</p>
+          <div className="crud__content__header crud__content__header__navigation ">
+            <img src={arrowLeft} style={{ cursor: "pointer" }} />
+            <p className="crud__content__info-header--num">1</p>
+            <p className="crud__content__info-header--num">2</p>
+            <p className="crud__content__info-header--num">3</p>
             <img src={arrowRight} style={{ cursor: "pointer" }} />
           </div>
         </div>

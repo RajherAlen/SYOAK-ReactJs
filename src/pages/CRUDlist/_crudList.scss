@@ -5,53 +5,63 @@
   height: 100vh;
   padding: 62px 122px 25px 0px;
 
+  /// HEADER
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    position: relative;
+    padding-left: 20px;
+  }
+
   &__header-info {
     display: flex;
     align-items: baseline;
-    
+  }
+
+  &__info {
+    font-family: $primaryFont;
+    font-style: normal;
+
     &--title {
-      font-family: $primaryFont;
+      color: $textDark;
       font-weight: 900;
       font-size: 25px;
       line-height: 30px;
-      color: $textDark;
       margin-right: 9px;
     }
 
     &--total {
-      @include salesName();
-      font-weight: 500;
-      font-style: normal;
       color: $textLightGrey;
+      font-size: 12.8px;
+      line-height: 15px;
+      font-weight: 500;
       margin-right: 23px;
     }
 
     &--sort {
-      @include text12();
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: -0.0747253px;
       font-weight: 500;
-      font-style: normal;
+
       &--dark {
         color: #000;
         margin-right: 4px;
       }
+
       &--light {
         color: $textLightGrey;
         img {
           margin-left: 3px;
+          cursor: pointer;
         }
       }
     }
   }
 
-  &__header {
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    padding-left: 20px;
-  }
-
-  // CRUD TOP RIGHT
-  &__header-btns {
+  // HEADER BUTTONS
+  &__btns {
     display: flex;
     position: relative;
 
@@ -64,6 +74,7 @@
       outline-width: 0;
       cursor: pointer;
       transition: 0.3s all ease-in-out;
+
       &:hover {
         box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
         opacity: 0.8;
@@ -72,7 +83,7 @@
       &--outline {
         border: 1px solid $btnPrimary;
         background-color: $white;
-        margin-right: 12px;
+        margin: 0 12px;
         img {
           margin-right: 6px;
         }
@@ -86,11 +97,16 @@
           margin-right: 2px;
         }
       }
+
+      &--cancle {
+        background-color: $white;
+        border: none;
+        color: $textRed;
+      }
     }
   }
 
-  // MODAL CARD ADD FUEL
-
+  // HEADER MODAL CARD ADD FUEL
   &__add-fuel {
     position: absolute;
     z-index: 222;
@@ -109,11 +125,12 @@
     }
 
     &__title {
-      font-family: $primaryFont;
-      font-style: normal;
+      font-family: $secondaryFont;
+      color: $textDark;
       font-size: 20px;
       line-height: 24px;
       font-weight: 900;
+      font-style: normal;
       margin-bottom: 66px;
     }
 
@@ -153,182 +170,148 @@
         padding-left: 16px;
       }
     }
-
-    &__btns {
-      display: flex;
-
-      &__btn {
-        width: 121px;
-        height: 36px;
-        @include salesName();
-        font-weight: 500;
-        font-style: normal;
-        cursor: pointer;
-        transition: 0.2s all ease-in-out;
-
-        &--primary {
-          border: none;
-          color: $white;
-          background-color: $btnPrimary;
-          margin-right: 22px;
-          &:hover {
-            background-color: $white;
-            color: $btnPrimary;
-            border: 1px solid $btnPrimary;
-          }
-        }
-
-        &--outline {
-          color: $btnPrimary;
-          border: 1px solid $btnPrimary;
-          background-color: $white;
-
-          &:hover {
-            border: none;
-            color: $white;
-            background-color: $btnPrimary;
-          }
-        }
-
-        &--cancle {
-          background-color: $white;
-          border: none;
-          color: $textRed;
-        }
-      }
-    }
   }
 
   // CRUD LIST
-
   &__content {
     width: 100%;
-    height: 647px;
     padding-top: 51px;
     padding-left: 20px;
 
-    &__header {
-      display: flex;
-      align-items: baseline;
-      justify-content: space-between;
+    &__info-header {
+      font-style: normal;
 
-      &--info {
-        padding-left: 61px;
-        padding-right: 50px;
-        width: 100%;
-      }
-
-      &__title {
+      &--title {
+        font-family: $primaryFont;
         font-weight: 900;
-        font-style: normal;
         color: $textDark;
         font-size: 16px;
         line-height: 19px;
         letter-spacing: -0.0809524px;
       }
 
-      &-number {
-        width: 169px;
-        padding-right: 14px;
+      &--num {
+        font-family: $secondaryFont;
+        font-size: 12.8px;
+        line-height: 15px;
         color: #868686;
       }
     }
 
-    &__list {
-      width: 100%;
-      padding-top: 28px;
+    &__info-row {
+      font-family: $primaryFont;
+      font-size: 13px;
+      line-height: 16px;
+      letter-spacing: -0.0747253px;
+      font-style: normal;
 
-      .crud__row {
-        position: relative;
-        height: 60px;
-        display: flex;
-        align-items: center;
+      &--bold-dark {
+        font-weight: 900;
+        color: $textDark;
+      }
+
+      &--light-dark {
+        font-weight: 500;
+        color: $textDark;
+      }
+
+      &--light-grey {
+        font-weight: 500;
+        color: $textLightGrey;
+      }
+    }
+
+    &__header {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      margin-bottom: 18px;
+
+      &__info {
+        padding-left: 61px;
+        padding-right: 50px;
+        width: 100%;
+      }
+
+      &__navigation {
+        width: 169px;
+        padding-right: 14px;
+      }
+    }
+  }
+
+  &__row {
+    position: relative;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+    background: $white;
+    box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
+    border-radius: 5px;
+    padding-right: 150px;
+    padding-left: 23px;
+
+    &__dots-img {
+      position: absolute;
+      top: 29.5px;
+      right: 26px;
+    }
+
+    &__avatar-img {
+      margin: 0 12px 0 23px;
+    }
+
+    &__info {
+      display: flex;
+      align-items: center;
+
+      &--provider {
+        width: 200px;
+      }
+
+      &--desc {
+        width: 80%;
         justify-content: space-between;
-        margin-bottom: 15px;
-        background: $white;
-        box-shadow: 0px 8px 5px rgba(0, 0, 0, 0.03);
-        border-radius: 5px;
-        padding-right: 150px;
-        padding-left: 23px;
+        padding: 0 55px 0 50px;
+      }
+    }
 
-        &__img {
-          position: absolute;
-          top: 29.5px;
-          right: 26px;
+    // EDIT MODAL CARD
+    &__edit {
+      display: none;
+      position: absolute;
+      top: 47px;
+      right: 8px;
+      width: 240px;
+      height: 125px;
+      background: $white;
+      box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+      border-radius: 6px;
+      z-index: 11;
+
+      &--active {
+        display: block;
+      }
+
+      &__method {
+        font-family: $secondaryFont;
+        color: $textDarkGrey;
+        font-size: 14px;
+        line-height: 17px;
+        display: flex;
+        height: 41.6px;
+        align-items: center;
+        padding: 15px 0 15px 21px;
+        cursor: pointer;
+        &:hover {
+          background-color: #e5e5e5;
         }
+      }
 
-        .avatar {
-          margin: 0 12px 0 23px;
-        }
-
-        &__info {
-          display: flex;
-          align-items: center;
-
-          &--provider {
-            width: 200px;
-          }
-          &--right {
-            width: 80%;
-            justify-content: space-between;
-            padding: 0 55px 0 50px;
-          }
-
-          &__desc {
-            @include text13();
-            letter-spacing: -0.0747253px;
-            font-weight: 500;
-            font-style: normal;
-
-            &--dark {
-              color: $textDark;
-
-              &-bold {
-                font-weight: 900;
-              }
-            }
-
-            &--light {
-              color: $textLightGrey;
-            }
-          }
-        }
-
-        &__edit {
-          display: none;
-          position: absolute;
-          top: 47px;
-          right: 8px;
-          width: 240px;
-          height: 125px;
-          background: $white;
-          box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
-          border-radius: 6px;
-          z-index: 11;
-
-          &--active {
-            display: block;
-          }
-
-          &__method {
-            font-family: $secondaryFont;
-            color: $textDarkGrey;
-            font-size: 14px;
-            line-height: 17px;
-            display: flex;
-            height: 41.6px;
-            align-items: center;
-            padding: 15px 0 15px 21px;
-            cursor: pointer;
-            &:hover {
-              background-color: #e5e5e5;
-            }
-          }
-
-          &__icon {
-            margin-right: 13px;
-          }
-        }
+      &__icon {
+        margin-right: 13px;
       }
     }
   }

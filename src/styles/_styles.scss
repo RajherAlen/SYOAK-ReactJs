@@ -16,107 +16,107 @@ $secondaryFont: "Quicksand", sans-serif;
   margin: 0 auto;
 }
 
-%normalBold900 {
-  font-weight: 900;
-  font-style: normal;
-}
+// %normalBold900 {
+//   font-weight: 900;
+//   font-style: normal;
+// }
 
-%normalBold600 {
-  font-weight: 600;
-  font-style: normal;
-}
+// %normalBold600 {
+//   font-weight: 600;
+//   font-style: normal;
+// }
 
-%normalBold500 {
-  font-weight: 500;
-  font-style: normal;
-}
+// %normalBold500 {
+//   font-weight: 500;
+//   font-style: normal;
+// }
 
-%center32 {
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.32px;
-}
+// %center32 {
+//   display: flex;
+//   align-items: center;
+//   letter-spacing: 0.32px;
+// }
 
-@mixin addFuelInput {
-  font-family: $primaryFont;
-  background-color: $white;
-  font-weight: normal;
-  font-size: 15px;
-  line-height: 20px;
-  border: 0;
-  outline-width: 0;
-  color: rgba(48, 48, 49, 0.75);
-  box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
-  border-radius: 3px;
-}
+// @mixin addFuelInput {
+//   font-family: $primaryFont;
+//   background-color: $white;
+//   font-weight: normal;
+//   font-size: 15px;
+//   line-height: 20px;
+//   border: 0;
+//   outline-width: 0;
+//   color: rgba(48, 48, 49, 0.75);
+//   box-shadow: 0px 7px 64px rgba(0, 0, 0, 0.07);
+//   border-radius: 3px;
+// }
 
-@mixin cardTitle {
-  @extend %normalBold900;
-  @extend %center32;
-  font-family: $primaryFont;
-  font-size: 20px;
-  line-height: 24px;
-}
+// @mixin cardTitle {
+//   @extend %normalBold900;
+//   @extend %center32;
+//   font-family: $primaryFont;
+//   font-size: 20px;
+//   line-height: 24px;
+// }
 
-@mixin fuelPrice {
-  @extend %normalBold900;
-  @extend %center32;
-  font-family: $primaryFont;
-  font-size: 25px;
-  line-height: 30px;
-}
+// @mixin fuelPrice {
+//   @extend %normalBold900;
+//   @extend %center32;
+//   font-family: $primaryFont;
+//   font-size: 25px;
+//   line-height: 30px;
+// }
 
-@mixin fuelPriceBig {
-  @extend %normalBold900;
-  font-family: $primaryFont;
-  font-size: 35px;
-  line-height: 42px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 0.4px;
-  color: $white;
-}
+// @mixin fuelPriceBig {
+//   @extend %normalBold900;
+//   font-family: $primaryFont;
+//   font-size: 35px;
+//   line-height: 42px;
+//   display: flex;
+//   align-items: center;
+//   letter-spacing: 0.4px;
+//   color: $white;
+// }
 
-@mixin extraSmallText {
-  @extend %normalBold500;
-  @extend %center32;
-  font-family: $primaryFont;
-  color: $textLightGrey;
-  font-size: 8px;
-  line-height: 10px;
-}
+// @mixin extraSmallText {
+//   @extend %normalBold500;
+//   @extend %center32;
+//   font-family: $primaryFont;
+//   color: $textLightGrey;
+//   font-size: 8px;
+//   line-height: 10px;
+// }
 
-@mixin smallDates {
-  @extend %normalBold500;
-  @extend %center32;
-  font-family: $secondaryFont;
-  color: $white;
-  font-size: 8px;
-  line-height: 9px;
-  mix-blend-mode: normal;
-  opacity: 0.5;
-}
+// @mixin smallDates {
+//   @extend %normalBold500;
+//   @extend %center32;
+//   font-family: $secondaryFont;
+//   color: $white;
+//   font-size: 8px;
+//   line-height: 9px;
+//   mix-blend-mode: normal;
+//   opacity: 0.5;
+// }
 
-@mixin salesName {
-  @extend %normalBold900;
-  font-family: $primaryFont;
-  font-size: 12.8px;
-  line-height: 15px;
-  text-align: center;
-  color: $textDark;
-}
+// @mixin salesName {
+//   @extend %normalBold900;
+//   font-family: $primaryFont;
+//   font-size: 12.8px;
+//   line-height: 15px;
+//   text-align: center;
+//   color: $textDark;
+// }
 
-@mixin text13 {
-  font-family: $primaryFont;
-  font-size: 13px;
-  line-height: 16px;
-}
+// @mixin text13 {
+//   font-family: $primaryFont;
+//   font-size: 13px;
+//   line-height: 16px;
+// }
 
-@mixin text12 {
-  font-family: $primaryFont;
-  font-size: 12px;
-  line-height: 15px;
-  display: flex;
-  align-items: center;
-  letter-spacing: -0.0747253px;
-}
+// @mixin text12 {
+//   font-family: $primaryFont;
+//   font-size: 12px;
+//   line-height: 15px;
+//   display: flex;
+//   align-items: center;
+//   letter-spacing: -0.0747253px;
+// }

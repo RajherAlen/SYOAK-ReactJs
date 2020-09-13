@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import dots from "./img/dots.svg";
-import { Avatar } from "@material-ui/core";
 import edit from "./img/edit.svg";
+import avatar from "./img/avatar.svg";
 import remove from "./img/remove.svg";
 import duplicate from "./img/duplicate.svg";
 
@@ -16,26 +16,24 @@ const CRUDrow = ({ provider, type, fuelName, price, dateCreated, id }) => {
     <div className="crud__row">
       <div className="crud__row__info crud__row__info--provider">
         <input type="checkbox" />
-        <Avatar style={{ width: "35px", height: "35px" }} className="avatar">
-          I
-        </Avatar>
-        <p className="crud__row__info__desc crud__row__info__desc--dark">
+        <img src={avatar} className="crud__row__avatar-img" />
+        <p className="crud__content__info-row crud__content__info-row--light-dark">
           {" "}
           {provider}{" "}
         </p>
       </div>
 
-      <div className="crud__row__info crud__row__info--right">
-        <p className="crud__row__info__desc crud__row__info__desc--light">
+      <div className="crud__row__info crud__row__info--desc">
+        <p className="crud__content__info-row crud__content__info-row--light-grey">
           {type}
         </p>
-        <p className="crud__row__info__desc crud__row__info__desc--light ">
+        <p className="crud__content__info-row crud__content__info-row--light-grey ">
           {fuelName}
         </p>
-        <p className="crud__row__info__desc crud__row__info__desc--dark crud__row__info__desc--dark-bold">
+        <p className="crud__content__info-row crud__content__info-row--bold-dark">
           {price}$
         </p>
-        <p className="crud__row__info__desc crud__row__info__desc--light ">
+        <p className="crud__content__info-row crud__content__info-row--light-grey ">
           {" "}
           {dateCreated}
         </p>
@@ -43,7 +41,7 @@ const CRUDrow = ({ provider, type, fuelName, price, dateCreated, id }) => {
 
       <img
         src={dots}
-        className="crud__row__img"
+        className="crud__row__dots-img"
         onClick={() => handleActiveEdit()}
         style={{ cursor: "pointer" }}
       />

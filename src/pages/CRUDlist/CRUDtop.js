@@ -9,23 +9,23 @@ const CRUDtop = () => {
   return (
     <div className="crud__header">
       <div className="crud__header-info">
-        <p className="crud__header-info--title">DATALIST</p>
-        <p className="crud__header-info--total">578 total</p>
-        <p className="crud__header-info--sort crud__header-info--sort--dark">
+        <p className="crud__info--title">DATALIST</p>
+        <p className="crud__info--total">578 total</p>
+        <p className="crud__info--sort crud__info--sort--dark">
           Sort by:
         </p>
-        <p className="crud__header-info--sort crud__header-info--sort--light">
+        <p className="crud__info--sort crud__info--sort--light">
           Fuel Type <img src={arrowDown} />
         </p>
       </div>
 
-      <div className="crud__header-btns">
-        <button className="crud__header-btns__btn crud__header-btns__btn--outline">
+      <div className="crud__btns">
+        <button className="crud__btns__btn crud__btns__btn--outline">
           <img src={filter} />
           Filter
         </button>
         <button
-          className="crud__header-btns__btn crud__header-btns__btn--primary"
+          className="crud__btns__btn crud__btns__btn--primary"
           onClick={() => setAddFuel(true)}
         >
           <img src={add} />
@@ -75,15 +75,15 @@ const CRUDtop = () => {
             className="crud__add-fuel__input crud__add-fuel__input--sml"
           />
         </div>
-        <div className="crud__add-fuel__btns">
-          <button className="crud__add-fuel__btns__btn crud__add-fuel__btns__btn--primary">
+        <div className="crud__btns">
+          <button className="crud__btns__btn crud__btns__btn--primary">
             Save Changes
           </button>
-          <button className="crud__add-fuel__btns__btn crud__add-fuel__btns__btn--outline">
+          <button className="crud__btns__btn crud__btns__btn--outline">
             Preview
           </button>
           <button
-            className="crud__add-fuel__btns__btn crud__add-fuel__btns__btn--cancle"
+            className="crud__btns__btn crud__btns__btn--cancle"
             onClick={() => setAddFuel(false)}
           >
             Cancle
