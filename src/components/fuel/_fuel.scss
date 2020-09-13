@@ -33,12 +33,21 @@
       line-height: 24px;
     }
 
-    &--tiny {
+    &--tiny-main {
       font-weight: 500;
       font-size: 10px;
       line-height: 12px;
       letter-spacing: 0.4px;
       margin-bottom: 9px;
+    }
+
+    &--tiny {
+      font-weight: 500;
+      font-size: 8px;
+      line-height: 10px;
+      letter-spacing: 0.32px;
+      color: $textLightGrey;
+      margin-bottom: 29px;
     }
 
     &--stats {

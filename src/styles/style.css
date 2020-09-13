@@ -459,7 +459,6 @@
 
 .activity__header--description {
   font-weight: 500;
-  font-style: normal;
   font-size: 16px;
   line-height: 19px;
   color: #9da8b6;
@@ -486,11 +485,11 @@
   font-family: "Inter";
   font-size: 13px;
   line-height: 16px;
+  font-style: normal;
 }
 
 .activity__row__info--bold {
   font-weight: 900;
-  font-style: normal;
 }
 
 .activity__row__info--bold--dark {
@@ -503,7 +502,6 @@
 
 .activity__row__info--light {
   font-weight: 500;
-  font-style: normal;
 }
 
 .activity__row__info--light--grey {
@@ -550,12 +548,21 @@
   line-height: 24px;
 }
 
-.fuel__info--tiny {
+.fuel__info--tiny-main {
   font-weight: 500;
   font-size: 10px;
   line-height: 12px;
   letter-spacing: 0.4px;
   margin-bottom: 9px;
+}
+
+.fuel__info--tiny {
+  font-weight: 500;
+  font-size: 8px;
+  line-height: 10px;
+  letter-spacing: 0.32px;
+  color: #9da8b6;
+  margin-bottom: 29px;
 }
 
 .fuel__info--stats {

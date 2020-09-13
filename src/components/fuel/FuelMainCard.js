@@ -12,7 +12,7 @@ const FuelMainCard = () => {
       <div className="fuel__main-card__content">
         <p className="fuel__info--title">Diesel Fuel</p>
         <p className="fuel__info--price fuel__info--price--lrg">$1.96</p>
-        <p className="fuel__info--tiny">AVG PRICE</p>
+        <p className="fuel__info--tiny-main">AVG PRICE</p>
       </div>
 
       {/* GRAPH */}
